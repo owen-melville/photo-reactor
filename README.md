@@ -4,6 +4,8 @@ This repository contains the STL files and instructions for the assembly of the 
 
 Last Updated 2024-09-04 By Owen Melville
 
-/bMaterials Required:/b
+<b>Materials Required:</b>
 |Item|Quantity|Description|Total Price|Price per Item|Link|
+|----|--------|-----------|-----------|--------------|--------|
+
 
