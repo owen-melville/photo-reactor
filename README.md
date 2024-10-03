@@ -3,7 +3,6 @@ This repository contains the STL files and instructions for the assembly of the 
 
 <img src="https://github.com/user-attachments/assets/329264f6-ba9a-4603-b425-6119a54de8dd" width="200"/>
 
-
 Last Updated 2024-10-03 By Owen Alfred Melville, Staff Scientist at the Acceleration Consortium in Toronto. 
 
 <b><h2>Summary of Steps:</b></h2>
@@ -75,7 +74,7 @@ All the 3D printed parts can be printed with 0.2 mm layer height and a 0.4 mm no
 | reactor_shield.stl | Holds Vial               | Tree supports from base only | 1                       | Change circle diameter for larger vial  |
 | screw_base.stl     | Connects reactor to base | None                         | 1                       | Change screw pattern for different base |
 
-![Rotated_Pieces](https://github.com/user-attachments/assets/62d1e7ee-361d-46b5-8baa-6726d720cf07)
+<img src="https://github.com/user-attachments/assets/62d1e7ee-361d-46b5-8baa-6726d720cf07" width="800"/>
 
 <b><h1>Step 3: Assemble the Photoreactor: </b></h1>
 
