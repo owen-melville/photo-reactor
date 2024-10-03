@@ -74,6 +74,16 @@ All the 3D printed parts can be printed with 0.2 mm layer height and a 0.4 mm no
 | reactor_shield.stl | Holds Vial               | Tree supports from base only | 1                       | Change circle diameter for larger vial  |
 | screw_base.stl     | Connects reactor to base | None                         | 1                       | Change screw pattern for different base |
 
+![Rotated_Pieces](https://github.com/user-attachments/assets/62d1e7ee-361d-46b5-8baa-6726d720cf07)
+
 <b><h1>Step 3: Assemble the Photoreactor: </b></h1>
+
+The 3D printed parts are modular. When assembled, they should look like this:
+![Crop_Reactor](https://github.com/user-attachments/assets/46840458-0334-4217-876d-ce14d960154b)
+
+<b><h2> Step 3a: Assemble the LED Holders </b></h2>
+
+
+
 
 <b><h1>Step 4: Operate the Photoreactor: </b></h1>
