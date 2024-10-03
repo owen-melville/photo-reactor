@@ -1,29 +1,29 @@
 Insert image here
 
-<b>Overview:</b>
+#<b>Overview:</b>
 This repository contains the STL files and instructions for the assembly of the LEDbyEXAMPLE photoreactor. 
 Last Updated 2024-10-03 By Owen Melville
 
-<b>Summary of Steps:</b>
+#<b>Summary of Steps:</b>
   1. Order the required items
   2. 3D Print the required parts
   3. Assemble the photo-reactor
 
-<b>Tools Required For This Project:</b>
+#<b>Tools Required For This Project:</b>
 - Soldering Iron (for electrical connections)
 - Heat Gun (for heat-shrink electrical connections)
 - Wire cutters
 - 3D printer
 
-<b>Skills required For This Project: </b>
+#<b>Skills required For This Project: </b>
 - Soldering
 - Basic Python coding
 
-<b>Step 1: Order the Required Items: </b>
+#<b>Step 1: Order the Required Items: </b>
 
 The majority of the components for this project are electronic. In order to obtain 
 
-<b>Materials Required:</b>
+##<b>Materials Required:</b>
 
 These materials are required for the photoreactor. You would need to purchase more to make additional photoreactors. 
 
@@ -40,7 +40,7 @@ These materials are required for the photoreactor. You would need to purchase mo
 | NPN Transistor                   | Digikey  | 1727-4252-1-ND                | https://www.digikey.ca/en/products/detail/nexperia-usa-inc/PZT2222A-115/1158011?s=N4IgTCBcDaIIwHYwILQBYwFYwrigBAHIAiIAugL5A                                                                                                                                                                                                                                                                                                                                                                          | 2      | 0.56  | 1.12       |
 | Total Cost (CAD) | $80.14
 
-<b>Materials Required - Kits:</b>
+##<b>Materials Required - Kits:</b>
 
 These materials come in kits, so you may not need them if you already have similar materials. They can be used for multiple reactors or other projects. 
 
@@ -54,7 +54,7 @@ These materials come in kits, so you may not need them if you already have simil
 | Optional: Electrical Connectors  | Amazon   | https://www.amazon.ca/1-25mm-Connectors-Pre-Crimped-Pixhawk-Silicone/dp/B07S18D3RN/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | 21.99 |
 | Total Cost (CAD) | $99.94 |
 
-<b>Generic Materials Required:</b>
+##<b>Generic Materials Required:</b>
   - Wires
   - Solder
   - Filament for 3D printing
