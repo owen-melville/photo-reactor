@@ -1,6 +1,6 @@
 Insert image here
 
-<b> Overview </b>
+<b>Overview:</b>
 This repository contains the STL files and instructions for the assembly of the LEDbyEXAMPLE photoreactor. 
 Last Updated 2024-10-03 By Owen Melville
 
@@ -9,11 +9,19 @@ Last Updated 2024-10-03 By Owen Melville
   2. 3D Print the required parts
   3. Assemble the photo-reactor
 
-<b>Tools Required:</b>
+<b>Tools Required For This Project:</b>
 - Soldering Iron (for electrical connections)
 - Heat Gun (for heat-shrink electrical connections)
 - Wire cutters
 - 3D printer
+
+<b>Skills required For This Project: </b>
+- Soldering
+- Basic Python coding
+
+<b>Step 1: Order the Required Items: </b>
+
+The majority of the components for this project are electronic. In order to obtain 
 
 <b>Materials Required:</b>
 
@@ -23,12 +31,12 @@ These materials are required for the photoreactor. You would need to purchase mo
 | -------------------------------- | -------- | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ----- | ---------- |
 | Raspberry Pi Pico WH             | PiShop   | 402-1                         | https://www.pishop.ca/product/raspberry-pi-pico-wh-pre-soldered-headers/                                                                                                                                                                                                                                                                                                                                                                                                                             | 1      | 9.8   | 9.8        |
 | Grove Shield for Pico            | Digikey  | 1597-103100142-ND             | https://www.digikey.ca/en/products/detail/seeed-technology-co-ltd/103100142/13688265?s=N4IgTCBcDaIIwFYCcB2AtHADAZi5uALGGgHIAiIAugL5A | 1      | 6.25  | 6.25       |
-| ADAFRUIT EMC2101 I2C PC FAN CONT | Digikey  | 1528-4808-ND                  | https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4808/13590573?s=N4IgTCBcDaIIwFYwA4C0AWZAGNA5AIiALoC%2BQA                                                                                                                                                                                                                                                                                        | 2      | 7.99  | 15.98      |
-| DC AXIAL FAN, 20 MM SQUARE, 6 MM | Digikey  | 2223-CFM-2006CF-060-078-22-ND | https://www.digikey.ca/en/products/detail/cui-devices/CFM-2006CF-060-078-22/19524716?s=N4IgTCBcDa5mBmAtAYQGIFkkAIwAY8A2dJIvHPAdgA4l4kA5AERAF0BfIA                                                                                                                                                                                                                                                                                                                                                    | 2      | 11.06 | 22.12      |
-| Grove to StemmaQT connectors     | Digikey  | 1528-4528-ND                  | [https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4528/11627737?s=N4IgTCBcDaIIwFYwA4C0AWJaByAREAugL5A](https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4528/11627737?s=N4IgTCBcDaIIwFYwA4C0AWJaByAREAugL5A)                                                                                                                                                                                                                                                       | 2      | 2.83  | 5.66       |
+| Fan Control Board                | Digikey  | 1528-4808-ND                  | https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4808/13590573?s=N4IgTCBcDaIIwFYwA4C0AWZAGNA5AIiALoC%2BQA                                                                                                                                                                                                                                                                                        | 2      | 7.99  | 15.98      |
+| Square Fan (20mm Diameter)       | Digikey  | 2223-CFM-2006CF-060-078-22-ND | https://www.digikey.ca/en/products/detail/cui-devices/CFM-2006CF-060-078-22/19524716?s=N4IgTCBcDa5mBmAtAYQGIFkkAIwAY8A2dJIvHPAdgA4l4kA5AERAF0BfIA                                                                                                                                                                                                                                                                                                                                                    | 2      | 11.06 | 22.12      |
+| Grove to Fan Board Connectors    | Digikey  | 1528-4528-ND                  | [https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4528/11627737?s=N4IgTCBcDaIIwFYwA4C0AWJaByAREAugL5A](https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4528/11627737?s=N4IgTCBcDaIIwFYwA4C0AWJaByAREAugL5A)                                                                                                                                                                                                                                                       | 2      | 2.83  | 5.66       |
 | Usb B Micro B Circuit board      | Digikey  | 1528-1383-ND                  | https://www.digikey.ca/en/products/detail/adafruit-industries-llc/1833/5629431?s=N4IgTCBcDaIK4GcBGACVBbAlgYwE4Hs018BDXAExRPJIDNc5MAXEAXQF8g                                                                                                                                                                                                                                                                                                                                                          | 1      | 2.83  | 2.83       |
 | Usb B Micro B to Usb A cable     | Digikey  | 2987-DH-20M50057-ND           | https://www.digikey.ca/en/products/detail/cvilux-usa/DH-20M50057/13177527                                                                                                                                                                                                                                                                                                                                                                                                                            | 2      | 1.78  | 3.56       |
-| LED Stars                        | Digikey  | LST1-01H06-GRN1-01            | https://www.digikey.ca/en/products/detail/new-energy/LST1-01H06-GRN1-01/10663110?s=N4IgTCBcDaIDIGUAqBGAtABhQCQwNjQHEAlAOXSxAF0BfIA                                                                                                                                                                                                                                                                                                                                                                   | 2      | 6.41  | 12.82      |
+| LED Stars (Green)                | Digikey  | LST1-01H06-GRN1-01            | https://www.digikey.ca/en/products/detail/new-energy/LST1-01H06-GRN1-01/10663110?s=N4IgTCBcDaIDIGUAqBGAtABhQCQwNjQHEAlAOXSxAF0BfIA                                                                                                                                                                                                                                                                                                                                                                   | 2      | 6.41  | 12.82      |
 | NPN Transistor                   | Digikey  | 1727-4252-1-ND                | https://www.digikey.ca/en/products/detail/nexperia-usa-inc/PZT2222A-115/1158011?s=N4IgTCBcDaIIwHYwILQBYwFYwrigBAHIAiIAugL5A                                                                                                                                                                                                                                                                                                                                                                          | 2      | 0.56  | 1.12       |
 | Total Cost (CAD) | $80.14
 
