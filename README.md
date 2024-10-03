@@ -1,22 +1,22 @@
-Insert image here
+![image](https://github.com/user-attachments/assets/329264f6-ba9a-4603-b425-6119a54de8dd)
 
 <b><h1>Overview:</b></h1>
 This repository contains the STL files and instructions for the assembly of the LEDbyEXAMPLE photoreactor. 
 
 Last Updated 2024-10-03 By Owen Melville
 
-<b><h1>Summary of Steps:</b></h1>
+<b><h2>Summary of Steps:</b></h2>
   1. Order the required items
   2. 3D Print the required parts
   3. Assemble the photo-reactor
 
-<b><h1>Tools Required For This Project:</b></h1>
+<b><h2>Tools Required For This Project:</b></h2>
 - Soldering Iron (for electrical connections)
 - Heat Gun (for heat-shrink electrical connections)
 - Wire cutters
 - 3D printer
 
-<b><h1>Skills required For This Project: </b></h1>
+<b><h2>Skills required For This Project: </b></h2>
 - Soldering
 - Basic Python coding
 
@@ -59,3 +59,5 @@ These materials come in kits, so you may not need them if you already have simil
   - Wires
   - Solder
   - Filament for 3D printing
+
+<b><h1>Step 1: Order the Required Items: </b></h1>
