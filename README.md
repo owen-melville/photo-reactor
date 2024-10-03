@@ -9,6 +9,7 @@ Last Updated 2024-10-03 By Owen Alfred Melville, Staff Scientist at the Accelera
   1. Order the required items
   2. 3D Print the required parts
   3. Assemble the photo-reactor
+  4. Operate the photo-reactor
 
 <b><h2>Tools Required For This Project:</b></h2>
 - Soldering Iron (for electrical connections)
@@ -61,3 +62,7 @@ These materials come in kits, so you may not need them if you already have simil
   - Filament for 3D printing
 
 <b><h1>Step 2: 3D Print the Parts: </b></h1>
+
+<b><h1>Step 3: Assemble the Photoreactor: </b></h1>
+
+<b><h1>Step 4: Operate the Photoreactor: </b></h1>
