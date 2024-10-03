@@ -3,7 +3,7 @@ This repository contains the STL files and instructions for the assembly of the 
 
 ![image](https://github.com/user-attachments/assets/329264f6-ba9a-4603-b425-6119a54de8dd)
 
-Last Updated 2024-10-03 By Owen Melville
+Last Updated 2024-10-03 By Owen Alfred Melville, Staff Scientist at the Acceleration Consortium in Toronto. 
 
 <b><h2>Summary of Steps:</b></h2>
   1. Order the required items
