@@ -1,15 +1,13 @@
-![image](https://github.com/user-attachments/assets/b5b94967-1f0b-4ae8-a9cb-a42400aa28d2)# photo-reactor
-
 This repository contains the STL files and instructions for the assembly of the LEDbyEXAMPLE photoreactor. 
 
 Last Updated 2024-10-03 By Owen Melville
 
-Summary of Steps:
+<b>Summary of Steps:</b>
   1. Order the required items
   2. 3D Print the required parts
   3. Assemble the photo-reactor
 
-Tools Required:
+<b>Tools Required:</b>
 - Soldering Iron (for electrical connections)
 - Heat Gun (for heat-shrink electrical connections)
 - Wire cutters
@@ -17,7 +15,7 @@ Tools Required:
 
 <b>Materials Required:</b>
 
-These materials are required for the photoreactor, and you would need to purchase more to make additional photoreactors. 
+These materials are required for the photoreactor. You would need to purchase more to make additional photoreactors. 
 
 | Item                             | Supplier | Part number                   | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Number | Cost  | Total Cost |
 | -------------------------------- | -------- | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ----- | ---------- |
@@ -30,7 +28,7 @@ These materials are required for the photoreactor, and you would need to purchas
 | Usb B Micro B to Usb A cable     | Digikey  | 2987-DH-20M50057-ND           | https://www.digikey.ca/en/products/detail/cvilux-usa/DH-20M50057/13177527                                                                                                                                                                                                                                                                                                                                                                                                                            | 2      | 1.78  | 3.56       |
 | LED Stars                        | Digikey  | LST1-01H06-GRN1-01            | https://www.digikey.ca/en/products/detail/new-energy/LST1-01H06-GRN1-01/10663110?s=N4IgTCBcDaIDIGUAqBGAtABhQCQwNjQHEAlAOXSxAF0BfIA                                                                                                                                                                                                                                                                                                                                                                   | 2      | 6.41  | 12.82      |
 | NPN Transistor                   | Digikey  | 1727-4252-1-ND                | https://www.digikey.ca/en/products/detail/nexperia-usa-inc/PZT2222A-115/1158011?s=N4IgTCBcDaIIwHYwILQBYwFYwrigBAHIAiIAugL5A                                                                                                                                                                                                                                                                                                                                                                          | 2      | 0.56  | 1.12       |
-Total Cost (CAD): $80.14
+| Total Cost (CAD) | $80.14
 
 <b>Materials Required - Kits:</b>
 
@@ -44,3 +42,4 @@ These materials come in kits, so you may not need them if you already have simil
 | Resistors                        | Amazon   | https://www.amazon.ca/Resistor-Assorted-Resistors-Assortment-Experiments/dp/B07L851T3V/?th=1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | 17.99 |
 | Optional: Solder Seal Connectors | Amazon   | https://www.amazon.ca/Kuject-Connectors-Waterproof-Electrical-Automotive/dp/B073RMRCC3/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | 16.99 |
 | Optional: Electrical Connectors  | Amazon   | https://www.amazon.ca/1-25mm-Connectors-Pre-Crimped-Pixhawk-Silicone/dp/B07S18D3RN/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | 21.99 |
+| Total Cost (CAD) | $99.94 |
