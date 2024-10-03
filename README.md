@@ -83,6 +83,20 @@ The 3D printed parts are modular. When assembled, they should look like this:
 
 <b><h2> Step 3a: Assemble the LED Holders </b></h2>
 
+The LED Holder takes the 3D printed insert, and adds in a heat sink and a ~1W LED with attached wires to be controlled by the microcontroller. 
+
+<b>Parts Required:</b>
+- LED star
+- Wires
+- Wire connectors
+- 3D Printed LED Holder
+- Optional: Solder seal connectors
+
+<b>Steps:</b>
+  1. Take your LED star, it should have two large soldering pads labelled + and -
+  2. Clean the LED star pads using rubbing alcohol (isopropanol) and a tissue
+  3.```diff - <b> Tricky step Alert! </b> ''' 
+
 <b><h2> Step 3b: Assemble the Fan Base </b></h2>
 
 <b><h2> Step 3c: (Optional) Assemble the Fan Holder </b></h2>
