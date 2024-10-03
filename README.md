@@ -89,7 +89,7 @@ The LED Holder takes the 3D printed insert, and adds in a heat sink and a ~1W LE
 <b>Parts Required:</b>
 - LED star
 - Wires
-- Wire connectors
+- Wire connectors (***)
 - 3D Printed LED Holder
 - Optional: Solder seal connectors
 - Heat sinks
@@ -122,12 +122,43 @@ The LED Holder takes the 3D printed insert, and adds in a heat sink and a ~1W LE
  
 <b><h2> Step 3b: Assemble the Fan Base </b></h2>
 
+The fan base holds a fan with magnets to allow for magnetic stirring.
+
+<b>Parts Required:</b>
+- 3D Printed Fan Base
+- Fan
+- Wires
+- Super glue / double-sided tape
+- Magnets (x2)
+- Electrical connectors kit (or alternative connectors)
+
+<b>Steps:</b>
+  1. Thread the wires through the hole near the center of the fan base, with the black side of the fan facing up.
+  2. Carefully pull on the wires and wiggle the fan into the center square.
+  3. Using super glue or double-sided tape, carefully place the magnets on the top of the fan.
+  4. Using the same technique as in Step 3a - 7, use solder seal connectors to extend the length of the fan wires by attaching them to pre-crimped wires, then carefully insert the pre-crimped wires into the connector head. Alternatively, if you have a pre-wired connector with 4 wire leads, you can use that instead.
+
+***Add pictures and videos***
+
 <b><h2> Step 3c: (Optional) Assemble the Fan Holder </b></h2>
 
-<b><h2> Step 3c: Assemble the LED Board </b></h2>
+The fan holder holds a fan to actively cool the reactor vial. The cooling capacity of the current setup is unknown, and it is possible a larger or a stronger fan is required. This will be investigated for future versions of the photoreactor. 
 
-<b><h2> Step 3d: Assemble the Fan Board </b></h2>
+<b>Parts Required:</b>
+- 3D Printed Fan Holder
+- Fan
+- Wires
+- Electrical connectors kit (or alternative connectors)
 
-<b><h2> Step 3e: Combine the Electronics </b></h2>
+<b>Steps:</b>
+  1. Thread the wires through the hole near the bottom of the fan holder, with the black side of the fan facing out.
+  2. Carefully pull on the wires and pull the fan into its slot. 
+  3. Using the same technique as in Step 3a - 7, use solder seal connectors to extend the length of the fan wires by attaching them to pre-crimped wires, then carefully insert the pre-crimped wires into the connector head. Alternatively, if you have a pre-wired connector with 4 wire leads, you can use that instead.
+
+<b><h2> Step 3d: Assemble the LED Board </b></h2>
+
+<b><h2> Step 3e: Assemble the Fan Board </b></h2>
+
+<b><h2> Step 3f: Combine the Electronics </b></h2>
 
 <b><h1>Step 4: Operate the Photoreactor: </b></h1>
