@@ -79,7 +79,7 @@ All the 3D printed parts can be printed with 0.2 mm layer height and a 0.4 mm no
 <b><h1>Step 3: Assemble the Photoreactor: </b></h1>
 
 The 3D printed parts are modular. When assembled, they should look like this:
-![Crop_Reactor](https://github.com/user-attachments/assets/46840458-0334-4217-876d-ce14d960154b)
+<img src="https://github.com/user-attachments/assets/46840458-0334-4217-876d-ce14d960154b" width="200"/>
 
 <b><h2> Step 3a: Assemble the LED Holders </b></h2>
 
