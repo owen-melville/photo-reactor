@@ -43,3 +43,8 @@ These materials come in kits, so you may not need them if you already have simil
 | Optional: Solder Seal Connectors | Amazon   | https://www.amazon.ca/Kuject-Connectors-Waterproof-Electrical-Automotive/dp/B073RMRCC3/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | 16.99 |
 | Optional: Electrical Connectors  | Amazon   | https://www.amazon.ca/1-25mm-Connectors-Pre-Crimped-Pixhawk-Silicone/dp/B07S18D3RN/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | 21.99 |
 | Total Cost (CAD) | $99.94 |
+
+<b>Generic Materials Required:</b>
+  - Wires
+  - Solder
+  - Filament for 3D printing
