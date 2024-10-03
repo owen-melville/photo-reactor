@@ -1,6 +1,6 @@
 Insert image here
 
-#<b>Overview:</b>
+#Overview:
 This repository contains the STL files and instructions for the assembly of the LEDbyEXAMPLE photoreactor. 
 Last Updated 2024-10-03 By Owen Melville
 
