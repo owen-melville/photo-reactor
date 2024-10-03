@@ -1,7 +1,7 @@
 <b><h1>Overview:</b></h1>
 This repository contains the STL files and instructions for the assembly of the LEDbyEXAMPLE photoreactor. 
 
-![image](https://github.com/user-attachments/assets/329264f6-ba9a-4603-b425-6119a54de8dd=250x250)
+![image](https://github.com/user-attachments/assets/329264f6-ba9a-4603-b425-6119a54de8dd)
 
 Last Updated 2024-10-03 By Owen Alfred Melville, Staff Scientist at the Acceleration Consortium in Toronto. 
 
