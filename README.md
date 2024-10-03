@@ -101,11 +101,15 @@ The LED Holder takes the 3D printed insert, and adds in a heat sink and a ~1W LE
   4. Repeat the last process using a black wire and the - labelled pad on the right of the star. Ensure the contact has been well made after completion
 ***Insert image here of properly soldered wires on LED star***
   5. Remove the adhesive from the heat sink, and slide it into the 3D printed LED holder. Note that the spikes of the heat sink point outwards, towards the thinner side. The flat side of the heat sink should point inwards towards the thinner side.
+     
 <img src="https://github.com/user-attachments/assets/7e2b9ade-fd8d-4ce7-9e17-7f89670c8fbd" width="200"/>
-  7. Carefully feed the red and black wire through the hole at the bottom of the LED holder. If your wires will not fit, you can use a sharp knife to cut open the channel. As you feed the wires through, you may need to bend them so you can position the LED in a central location on the heat sink.
+
+  6. Carefully feed the red and black wire through the hole at the bottom of the LED holder. If your wires will not fit, you can use a sharp knife to cut open the channel. As you feed the wires through, you may need to bend them so you can position the LED in a central location on the heat sink.
+
 <img src="https://github.com/user-attachments/assets/7373ccb2-6cda-42ff-8504-7082727b10d2" width="200"/>
-  9. If you wanted a permanent setup, you could wire these red and black ends straight to your LED board (Step 3c). However, to make them removable/swappable, the wires need connectors. I recommend getting a set of pre-wired connectors with red and black wires at the non-connector end. Take the red wire from your LED and the red wire from the connector, and place them in a solder seal connector so that the bare ends of the wires are touching and under the "solder" of the connector. Use your heat gun to carefully heat up the solder seal connector from different angles. First the plastic will melt, sealing the wires together, then you will see the solder spreading from the central area, which should create a proper connection between the two wires. Let the connection cool. To check that the wiring has been made correctly, you can use a multimeter, comparing the LED pad to the appropriate pin in the connector. Use this youtube video for guidance: https://www.youtube.com/watch?v=bvDk3HzS7lM&ab_channel=SkillBuilder
-  10. Repeat the last step to connect the black wires.
+ 
+  7. If you wanted a permanent setup, you could wire these red and black ends straight to your LED board (Step 3c). However, to make them removable/swappable, the wires need connectors. I recommend getting a set of pre-wired connectors with red and black wires at the non-connector end. Take the red wire from your LED and the red wire from the connector, and place them in a solder seal connector so that the bare ends of the wires are touching and under the "solder" of the connector. Use your heat gun to carefully heat up the solder seal connector from different angles. First the plastic will melt, sealing the wires together, then you will see the solder spreading from the central area, which should create a proper connection between the two wires. Let the connection cool. To check that the wiring has been made correctly, you can use a multimeter, comparing the LED pad to the appropriate pin in the connector. Use this youtube video for guidance: https://www.youtube.com/watch?v=bvDk3HzS7lM&ab_channel=SkillBuilder
+  8. Repeat the last step to connect the black wires.
 
 <i>Congratulations, you have created your LED holder, which can slide in and out of the photoreactor! You can create as many of these as you have LEDs that you want to use </i>
 
