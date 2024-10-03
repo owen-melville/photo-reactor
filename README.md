@@ -60,4 +60,4 @@ These materials come in kits, so you may not need them if you already have simil
   - Solder
   - Filament for 3D printing
 
-<b><h1>Step 1: Order the Required Items: </b></h1>
+<b><h1>Step 2: 3D Print the Parts: </b></h1>
