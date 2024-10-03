@@ -41,7 +41,7 @@ These materials are required for the photoreactor. You would need to purchase mo
 | NPN Transistor                   | Digikey  | 1727-4252-1-ND                | https://www.digikey.ca/en/products/detail/nexperia-usa-inc/PZT2222A-115/1158011?s=N4IgTCBcDaIIwHYwILQBYwFYwrigBAHIAiIAugL5A                                                                                                                                                                                                                                                                                                                                                                          | 2      | 0.56  | 1.12       |
 | Total Cost (CAD) | $80.14
 
-##<b>Materials Required - Kits:</b>
+<b><h2>Materials Required - Kits:</b></h2>
 
 These materials come in kits, so you may not need them if you already have similar materials. They can be used for multiple reactors or other projects. 
 
@@ -55,7 +55,7 @@ These materials come in kits, so you may not need them if you already have simil
 | Optional: Electrical Connectors  | Amazon   | https://www.amazon.ca/1-25mm-Connectors-Pre-Crimped-Pixhawk-Silicone/dp/B07S18D3RN/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | 21.99 |
 | Total Cost (CAD) | $99.94 |
 
-##<b>Generic Materials Required:</b>
+<b><h2>Generic Materials Required</b></h2>
   - Wires
   - Solder
   - Filament for 3D printing
