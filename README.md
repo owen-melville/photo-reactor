@@ -22,7 +22,7 @@ Last Updated 2024-10-03 By Owen Alfred Melville, Staff Scientist at the Accelera
 
 <b><h1>Step 1: Order the Required Items: </b></h1>
 
-The majority of the components for this project are electronic. In order to obtain 
+The majority of the components for this project are electronic. 
 
 <b><h2>Materials Required:</b></h2>
 
