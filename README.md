@@ -63,7 +63,7 @@ These materials come in kits, so you may not need them if you already have simil
 
 <b><h1>Step 2: 3D Print the Parts: </b></h1>
 
-All the 3D printed parts can be printed with 0.2 mm layer height and a 0.4 mm nozzle. For prototyping or low-temperature reactors, PLA filament can be used. For higher temperatures or shorter wavelength (blue,violet,UV), ASA can be used. Since ASA tends to warp, I recommend using glue on the print bed. 
+All the 3D printed parts can be printed with 0.2 mm layer height and a 0.4 mm nozzle. For prototyping or low-temperature reactors, PLA filament can be used. For higher temperatures or shorter wavelength (blue,violet,UV), ASA can be used. Since ASA tends to warp, I recommend using glue stick on the print bed. 
 
 | File Name          | Purpose                  | Printing Considerations      | Number Required         | Customization Potential                 |
 | ------------------ | ------------------------ | ---------------------------- | ----------------------- | --------------------------------------- |
@@ -83,7 +83,14 @@ The 3D printed parts are modular. When assembled, they should look like this:
 
 <b><h2> Step 3a: Assemble the LED Holders </b></h2>
 
+<b><h2> Step 3b: Assemble the Fan Base </b></h2>
 
+<b><h2> Step 3c: (Optional) Assemble the Fan Holder </b></h2>
 
+<b><h2> Step 3c: Assemble the LED Board </b></h2>
+
+<b><h2> Step 3d: Assemble the Fan Board </b></h2>
+
+<b><h2> Step 3e: Combine the Electronics </b></h2>
 
 <b><h1>Step 4: Operate the Photoreactor: </b></h1>
