@@ -157,8 +157,36 @@ The fan holder holds a fan to actively cool the reactor vial. The cooling capaci
 
 <b><h2> Step 3d: Assemble the LED Board </b></h2>
 
+The LED Board uses transistors to control the on/off status of the LEDs, with the signal to the transistor coming from the Rasperry pi. It also has a power inlet port to power the LEDs separately from the Pi, as they draw quite a bit of current. In the future, an LED board could be purchased to directly control the LED, including its intensity, something not currently possible with this design. The design described here controls 2 LEDs at a time, but it could be extended to control more LEDs at once. 
+
+<b>Parts Required:</b>
+- PCB board
+- Wires
+- 1x 1000 Ohm resistor
+- 2x 5.6 Ohm resistor
+- 2x 390 Ohm resistor
+- 2x NPN Transistors
+- Electrical Connectors
+- 1x Usb B Micro B Circuit board (for power)
+
+<b>Steps:</b>
+
 <b><h2> Step 3e: Assemble the Fan Board </b></h2>
+
+The Fan Board uses pre-made fan control boards to control the RPM of the fans. It connects to the Rasperry pi and to a separate power supply. The current design is for 2 fans (1 cooling, 1 stirring) but could be easily be extended for use with more fans. 
+
+<b>Parts Required:</b>
+- PCB board
+- Wires
+- 1x 1000 Ohm resistor
+- 2x Fan Control Board
+- 2x Grove to Fan Board Connectors
+- 1x Usb B Micro B Circuit board (for power)
+
+<b>Steps:</b>
 
 <b><h2> Step 3f: Combine the Electronics </b></h2>
 
 <b><h1>Step 4: Operate the Photoreactor: </b></h1>
+
+<b><h1> Future Steps </b></h1>
