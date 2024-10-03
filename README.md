@@ -63,6 +63,17 @@ These materials come in kits, so you may not need them if you already have simil
 
 <b><h1>Step 2: 3D Print the Parts: </b></h1>
 
+All the 3D printed parts can be printed with 0.2 mm layer height and a 0.4 mm nozzle. For prototyping or low-temperature reactors, PLA filament can be used. For higher temperatures or shorter wavelength (blue,violet,UV), ASA can be used. Since ASA tends to warp, I recommend using glue on the print bed. 
+
+| File Name          | Purpose                  | Printing Considerations      | Number Required         | Customization Potential                 |
+| ------------------ | ------------------------ | ---------------------------- | ----------------------- | --------------------------------------- |
+| LED_holder.stl     | Holds LED + Heat Sink    | None                         | 1 per LED               |                                         |
+| blank_holder.stl   | Blocks Window            | None                         | 1 per unblocked window  |                                         |
+| fan_base.stl       | Holds Fan + Magnets      | Supports                     | 1                       | Change inset for larger fan             |
+| fan_holder.stl     | Holds Cooling Fan        | Tree supports from base only | Only if cooling desired |                                         |
+| reactor_shield.stl | Holds Vial               | Tree supports from base only | 1                       | Change circle diameter for larger vial  |
+| screw_base.stl     | Connects reactor to base | None                         | 1                       | Change screw pattern for different base |
+
 <b><h1>Step 3: Assemble the Photoreactor: </b></h1>
 
 <b><h1>Step 4: Operate the Photoreactor: </b></h1>
