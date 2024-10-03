@@ -95,8 +95,10 @@ The LED Holder takes the 3D printed insert, and adds in a heat sink and a ~1W LE
 <b>Steps:</b>
   1. Take your LED star, it should have two large soldering pads labelled + and -
   2. Clean the LED star pads using rubbing alcohol (isopropanol) and a tissue
-  3.```diff - <b> Tricky step Alert! </b> ''' 
-
+  3.<font color="red"> <b> Tricky step Alert! </b> </font> Attach a red wire to the + labelled pad on the right of the star. Wearing temperature resistant gloves, heat up your soldering iron in a well ventilated area. Hold the wire down on the soldering pad carefully with the soldering iron for a few seconds with your dominant hand. Using your non-dominant hand, feed solder to the pad from different directions, allowing it to flow onto the pad. Put away the solder quickly, then use your non-dominant hand to hold down the wire as you carefully remove the soldering iron and replace it in its holder. Allow the solder to cool before you remove your hand. The wire should be encased in solder that has made a strong bind with the pad. If after 2 minutes, gentle pressure on the solder pushes it off the pad, you may need to clean the pad and repeat the process. For tips on this process, see this video (Time Stamp 4:30) https://www.youtube.com/watch?v=H-82av4zQKY&ab_channel=MrTroutDT
+  4. Repeat the last process using a black wire and the - labelled pad on the right of the star. Ensure the contact has been well made after completion.
+  5. 
+ 
 <b><h2> Step 3b: Assemble the Fan Base </b></h2>
 
 <b><h2> Step 3c: (Optional) Assemble the Fan Holder </b></h2>
