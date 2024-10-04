@@ -181,6 +181,10 @@ The LED Board uses transistors to control the on/off status of the LEDs, with th
   3. Solder wires into the open circles that connect to the RPi GPIO pins. The other end of the wire can be bare or an open pin. We will connect these to the RPi in a later step.
   4. Solder wires into the open circles that connect to the LED. For clarity, you can use red wires to go towards the power supply, and black wires towards the transistors. These wires should be at their other end connected to the complementary connectors that you used in Steps 2-7 and 2-8. These are meant to connect and disconnect the LED holders so you can change them.
   5. Solder a black wire from the ground/- terminal. The other end of the wire can be bare or an open pin. We will connect this wire to the RPi Ground Pin in a later step, to ensure a common ground.
+  6. (Optional): To add more LED outputs, add more of this section of the circuit diagram, connected in the same way.
+
+![image](https://github.com/user-attachments/assets/9afe2258-821c-457f-b0fd-84a86cb2db12)
+
 
 <b><h2> Step 3e: Assemble the Fan Board </b></h2>
 
