@@ -150,6 +150,8 @@ The fan base holds a fan with magnets to allow for magnetic stirring.
 
   4. Using the same technique as in Step 3a - 7, use solder seal connectors to extend the length of the fan wires by attaching them to pre-crimped wires, then carefully insert the pre-crimped wires into the connector head. Alternatively, if you have a pre-wired connector with 4 wire leads, you can use that instead.
 
+***Insert image here of completed Fan Base***
+
 <i>Congratulations, you have created your Fan Base which is used to stir a magnetic rod in the reactor </i>
 
 <b><h2> Step 3c: (Optional) Assemble the Fan Holder </b></h2>
@@ -166,6 +168,8 @@ The fan holder holds a fan to actively cool the reactor vial. The cooling capaci
   1. Thread the wires through the hole near the bottom of the fan holder, with the black side of the fan facing out.
   2. Carefully pull on the wires and pull the fan into its slot. 
   3. Using the same technique as in Step 3a - 7, use solder seal connectors to extend the length of the fan wires by attaching them to pre-crimped wires, then carefully insert the pre-crimped wires into the connector head. Alternatively, if you have a pre-wired connector with 4 wire leads, you can use that instead.
+
+***TODO - Document this process with images***
 
 <b><h2> Step 3d: Assemble the LED Board </b></h2>
 
