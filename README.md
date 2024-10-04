@@ -198,11 +198,14 @@ The Fan Board uses pre-made fan control boards to control the RPM of the fans. I
 - 1x Usb B Micro B Circuit board (for power)
 
 <b>Steps:</b>
+
+![Fan_Circuit](https://github.com/user-attachments/assets/cb81da7f-3da0-43e1-a4db-d8c14636db3a)
+
   1. Mount the power board and solder in a 1000 Ohm resistor between the power and ground sides. This creates a power port. The GND side represents your ground, and 5V your high voltage.
-  2. Solder the circuit diagram above. Solder wires into the open circles for the fan power and ground. These will go to the 4-pin connector to the fan.
-  3. For each Fan Control Board, solder wires into the "FAN" and "TACH" ports, the other ends will go to the 4-pin connector to the fan.
+  2. Solder the circuit diagram above. Solder wires into the open circles for the fan power (red) and ground (black). These will go to the 4-pin connector to the fan.
+  3. For each Fan Control Board, solder wires into the "FAN" (blue) and "TACH" (yellow) ports, the other ends will go to the 4-pin connector to the fan.
   4. For each Fan Control Board, attach a Grove to Fan Board Connector. This will connect to the RPi.
-  5. Take the power, ground, tach, and fan wires and connect them to a 4-pin connector that complements the one you created for your fans in step 3b-4. 
+  5. Take the power (red), ground (black), tach (yellow), and fan (blue) wires and connect them to a 4-pin connector that complements the one you created for your fans in step 3b-4. 
 
 <b><h2> Step 3f: Combine the Electronics </b></h2>
 
