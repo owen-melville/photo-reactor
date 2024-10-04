@@ -96,6 +96,9 @@ The LED Holder takes the 3D printed insert, and adds in a heat sink and a ~1W LE
 
 <b>Steps:</b>
   1. Take your LED star, it should have two large soldering pads labelled + and -
+  
+![LED_Cropped](https://github.com/user-attachments/assets/f5ad7750-d359-4cf4-9f4c-2d04c2cf09ac)
+  
   2. Clean the LED star pads using rubbing alcohol (isopropanol) and a tissue
   3. ***Tricky step Alert*** Attach a red wire to the + labelled pad on the right of the star. Wearing temperature resistant gloves, heat up your soldering iron in a well ventilated area. Hold the wire down on the soldering pad carefully with the soldering iron for a few seconds with your dominant hand. Using your non-dominant hand, feed solder to the pad from different directions, allowing it to flow onto the pad. Put away the solder quickly, then use your non-dominant hand to hold down the wire as you carefully remove the soldering iron and replace it in its holder. Allow the solder to cool before you remove your hand. The wire should be encased in solder that has made a strong bind with the pad. If after 2 minutes, gentle pressure on the solder pushes it off the pad, you may need to clean the pad and repeat the process. For tips on this process, see this video (Time Stamp 4:30) https://www.youtube.com/watch?v=H-82av4zQKY&ab_channel=MrTroutDT
   4. Repeat the last process using a black wire and the - labelled pad on the right of the star. Ensure the contact has been well made after completion
@@ -112,13 +115,14 @@ The LED Holder takes the 3D printed insert, and adds in a heat sink and a ~1W LE
  
   7. If you wanted a permanent setup, you could wire these red and black ends straight to your LED board (Step 3c). However, to make them removable/swappable, the wires need connectors. I recommend getting a set of pre-wired connectors with red and black wires at the non-connector end. Take the red wire from your LED and the red wire from the connector, and place them in a solder seal connector so that the bare ends of the wires are touching and under the "solder" of the connector. Use your heat gun to carefully heat up the solder seal connector from different angles. First the plastic will melt, sealing the wires together, then you will see the solder spreading from the central area, which should create a proper connection between the two wires. Let the connection cool. To check that the wiring has been made correctly, you can use a multimeter, comparing the LED pad to the appropriate pin in the connector. Use this youtube video for guidance: https://www.youtube.com/watch?v=bvDk3HzS7lM&ab_channel=SkillBuilder
 
-***Insert image here of connected wires***
+![Solder_seal](https://github.com/user-attachments/assets/74cff052-b6ad-41a6-8cfc-0ee9209b1246)
+
   
   8. Repeat the last step to connect the black wires.
 
 <i>Congratulations, you have created your LED holder, which can slide in and out of the photoreactor! You can create as many of these as you have LEDs that you want to use </i>
 
-***Insert image here of finished product***
+![Finished_LED](https://github.com/user-attachments/assets/1358ff0c-9712-4247-9423-5027ea5965c2)
  
 <b><h2> Step 3b: Assemble the Fan Base </b></h2>
 
@@ -134,8 +138,18 @@ The fan base holds a fan with magnets to allow for magnetic stirring.
 
 <b>Steps:</b>
   1. Thread the wires through the hole near the center of the fan base, with the black side of the fan facing up.
+
+![Fan_1](https://github.com/user-attachments/assets/4cb23316-80ef-4810-b8c4-0a2b49eafe8f)
+
+
   2. Carefully pull on the wires and wiggle the fan into the center square.
+
+![Fan_2](https://github.com/user-attachments/assets/d990a419-c216-41bc-89c8-05daa266d34b)
+
   3. Using super glue or double-sided tape, carefully place the magnets on the top of the fan.
+
+![Fan_3](https://github.com/user-attachments/assets/e3d64590-094e-4241-b5e5-eb869c47dd86)
+
   4. Using the same technique as in Step 3a - 7, use solder seal connectors to extend the length of the fan wires by attaching them to pre-crimped wires, then carefully insert the pre-crimped wires into the connector head. Alternatively, if you have a pre-wired connector with 4 wire leads, you can use that instead.
 
 ***Add pictures and videos***
