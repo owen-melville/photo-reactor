@@ -116,15 +116,12 @@ The LED Holder takes the 3D printed insert, and adds in a heat sink and a ~1W LE
   7. If you wanted a permanent setup, you could wire these red and black ends straight to your LED board (Step 3c). However, to make them removable/swappable, the wires need connectors. I recommend getting a set of pre-wired connectors with red and black wires at the non-connector end. Take the red wire from your LED and the red wire from the connector, and place them in a solder seal connector so that the bare ends of the wires are touching and under the "solder" of the connector. Use your heat gun to carefully heat up the solder seal connector from different angles. First the plastic will melt, sealing the wires together, then you will see the solder spreading from the central area, which should create a proper connection between the two wires. Let the connection cool. To check that the wiring has been made correctly, you can use a multimeter, comparing the LED pad to the appropriate pin in the connector. Use this youtube video for guidance: https://www.youtube.com/watch?v=bvDk3HzS7lM&ab_channel=SkillBuilder
 
 <img src="https://github.com/user-attachments/assets/74cff052-b6ad-41a6-8cfc-0ee9209b1246" width="200"/>
-![Solder_seal]()
-
   
   8. Repeat the last step to connect the black wires.
 
 <i>Congratulations, you have created your LED holder, which can slide in and out of the photoreactor! You can create as many of these as you have LEDs that you want to use </i>
 
 <img src="https://github.com/user-attachments/assets/1358ff0c-9712-4247-9423-5027ea5965c2" width="200"/>
-![Finished_LED]()
  
 <b><h2> Step 3b: Assemble the Fan Base </b></h2>
 
@@ -153,7 +150,7 @@ The fan base holds a fan with magnets to allow for magnetic stirring.
 
   4. Using the same technique as in Step 3a - 7, use solder seal connectors to extend the length of the fan wires by attaching them to pre-crimped wires, then carefully insert the pre-crimped wires into the connector head. Alternatively, if you have a pre-wired connector with 4 wire leads, you can use that instead.
 
-***Add pictures and videos***
+<i>Congratulations, you have created your Fan Base which is used to stir a magnetic rod in the reactor </i>
 
 <b><h2> Step 3c: (Optional) Assemble the Fan Holder </b></h2>
 
