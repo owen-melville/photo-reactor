@@ -171,8 +171,10 @@ The LED Board uses transistors to control the on/off status of the LEDs, with th
 
 <b>Steps:</b>
 
+![LED_Circuit](https://github.com/user-attachments/assets/4a819eb4-cefc-4ced-982f-17caf310d74d)
+
   1. Mount the power board and solder in a 1000 Ohm resistor between the power and ground sides. This creates a power port. The GND side represents your ground, and 5V your high voltage.
-  2. Solder the circuit diagram below. For now, leave the open circles with text labels. The power supply and 1000 Ohm resistor are already completed in step 1. For the NPN transistors, the drawing below shows the schematic. Pin 1 (base) goes to the 330 Ohm resistor, and eventually to the RPi GPIO Pin. This acts like a switch for this LED. Pin 2 (collector) goes towards the LED and the power supply. Pin 3 (emitter) goes to ground.
+  2. Solder the circuit diagram above. For now, leave the open circles with text labels. The power supply and 1000 Ohm resistor are already completed in step 1. For the NPN transistors, the drawing below shows the schematic. Pin 1 (base) goes to the 330 Ohm resistor, and eventually to the RPi GPIO Pin. This acts like a switch for this LED. Pin 2 (collector) goes towards the LED and the power supply. Pin 3 (emitter) goes to ground.
 
      ![image](https://github.com/user-attachments/assets/5954095a-d3c8-4d65-bc8e-a652bc8a053b)
 
