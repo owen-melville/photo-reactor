@@ -1,5 +1,5 @@
 <b><h1>Overview:</b></h1>
-This repository contains the STL files and instructions for the assembly of the LEDbyEXAMPLE photoreactor. 
+This repository contains the STL files and instructions for the assembly of the LEDbyXAmple photoreactor. 
 
 <img src="https://github.com/user-attachments/assets/329264f6-ba9a-4603-b425-6119a54de8dd" width="200"/>
 
