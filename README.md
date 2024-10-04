@@ -271,12 +271,10 @@ To operate the photoreactor, we will need to use a Python script that connects t
   3. Install micropython into vscode (or whatever editor you are using) to interface with the RPi Pico.
   4. Connect the RPi Pico to your computer using the Usb B Micro B to Usb A Cable. Troubleshoot if the Pico is not connecting.
 
-<b><h2> Step 4a: Installations </b></h2>
+<b><h2> Step 4b: Python Scripts </b></h2>
 
 <b>Steps:</b>
-  1. Install a code editor such as vscode.
-  2. Install micropython into vscode to interface with the RPi Pico.
-  3. Connect the RPi Pico to your computer using the Usb B Micro B to Usb A Cable. Troubleshoot if the Pico is not connecting.
+  1. Download the 
 
 
 <b><h1> Future Steps </b></h1>
