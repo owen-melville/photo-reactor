@@ -171,6 +171,8 @@ The LED Board uses transistors to control the on/off status of the LEDs, with th
 
 <b>Steps:</b>
 
+  1. Mount the power board and solder in a 1000 Ohm resistor between the power and ground sides. 
+
 <b><h2> Step 3e: Assemble the Fan Board </b></h2>
 
 The Fan Board uses pre-made fan control boards to control the RPM of the fans. It connects to the Rasperry pi and to a separate power supply. The current design is for 2 fans (1 cooling, 1 stirring) but could be easily be extended for use with more fans. 
