@@ -228,8 +228,8 @@ The Fan Board uses pre-made fan control boards to control the RPM of the fans. I
 We need to connect the boards to the raspberry pi, which controls them. Optionally, you can choose to house them in the 3D printed holder, the parts of which you would need to print. This housing is only to keep the electronics tidy, and is not needed. 
 
 <b>Parts Required:</b>
-- Assembled Fan Board
-- Assembled LED Board
+- Assembled Fan Board (Step 3e)
+- Assembled LED Board (Step 3d)
 - Raspberry Pi Pico WH
 - Grove Shield for Pico
 - Usb B Micro B to Usb A cable
@@ -239,8 +239,49 @@ We need to connect the boards to the raspberry pi, which controls them. Optional
 <b>Steps:</b>
   1. (Optional) Print the electronics housing. See the table below for the parts and a photo of the assembled housing.
 
+<b><h2> Step 3g: Assemble the Reactor </b></h2>
 
+<b>Parts Required:</b>
+  - Assembled Electronics (Step 3f)
+  - Assembled Fan Base (Step 3b)
+  - Assembled LED Holder (Step 3a)
+  - Assembled Fan Holder (Optional, Step 3c)
+  - Reactor Shield
+  - Blank Holders (for open unfilled slots)
+  - Screw Base (Optional)
+
+<b>Steps:</b>
+  1. Assemble the reactor parts. The LED holder, blank holders, and fan holders should slot easily into the 4 slots on the sides of the reactor shield. The reactor shield slots onto the fan base, which slots onto the screw base.
+  2. Connect the electrical connectors for each LED and fan to the electrical setup. 
+  3. The screw base has slots for fastening the base of the reactor. These could be modified to attach the reactor to a different base or with different screws.
+
+***Insert image of assembled reactor***
+
+<i> Congratulations, you have fully assembled the LEDbyXAmple photoreactor! </i>
 
 <b><h1>Step 4: Operate the Photoreactor: </b></h1>
 
+To operate the photoreactor, we will need to use a Python script that connects to the RPi Pico. The script can be used to control the RPM of the fan (with some constraints) and to turn the LEDs on and off as needed. 
+
+<b><h2> Step 4a: Installations </b></h2>
+
+<b>Steps:</b>
+  1. Install a code editor such as vscode.
+  2. Install Python on your computer if it is not already installed.
+  3. Install micropython into vscode (or whatever editor you are using) to interface with the RPi Pico.
+  4. Connect the RPi Pico to your computer using the Usb B Micro B to Usb A Cable. Troubleshoot if the Pico is not connecting.
+
+<b><h2> Step 4a: Installations </b></h2>
+
+<b>Steps:</b>
+  1. Install a code editor such as vscode.
+  2. Install micropython into vscode to interface with the RPi Pico.
+  3. Connect the RPi Pico to your computer using the Usb B Micro B to Usb A Cable. Troubleshoot if the Pico is not connecting.
+
+
 <b><h1> Future Steps </b></h1>
+
+1. Increase the physical robustnest of the design, preventing the pieces from falling over when wires are tugged.
+2. Measure the temperature of the reactor using a thermocouple or an IR probe/camera.
+3. Measure the spatial uniformity of the LED emission in the reactor.
+4. Use feedback control to increase cooling fan speed when temperature rises. This might require a stronger cooling fan.
