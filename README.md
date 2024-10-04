@@ -171,7 +171,14 @@ The LED Board uses transistors to control the on/off status of the LEDs, with th
 
 <b>Steps:</b>
 
-  1. Mount the power board and solder in a 1000 Ohm resistor between the power and ground sides. 
+  1. Mount the power board and solder in a 1000 Ohm resistor between the power and ground sides. This creates a power port. The GND side represents your ground, and 5V your high voltage.
+  2. Solder the circuit diagram below. For now, leave the open circles with text labels. The power supply and 1000 Ohm resistor are already completed in step 1. For the NPN transistors, the drawing below shows the schematic. Pin 1 (base) goes to the 330 Ohm resistor, and eventually to the RPi GPIO Pin. This acts like a switch for this LED. Pin 2 (collector) goes towards the LED and the power supply. Pin 3 (emitter) goes to ground.
+
+     ![image](https://github.com/user-attachments/assets/5954095a-d3c8-4d65-bc8e-a652bc8a053b)
+
+  3. Solder wires into the open circles that connect to the RPi GPIO pins. The other end of the wire can be bare or an open pin. We will connect these to the RPi in a later step.
+  4. Solder wires into the open circles that connect to the LED. For clarity, you can use red wires to go towards the power supply, and black wires towards the transistors. These wires should be at their other end connected to the complementary connectors that you used in Steps 2-7 and 2-8. These are meant to connect and disconnect the LED holders so you can change them.
+  5. Solder a black wire from the ground/- terminal. The other end of the wire can be bare or an open pin. We will connect this wire to the RPi Ground Pin in a later step, to ensure a common ground.
 
 <b><h2> Step 3e: Assemble the Fan Board </b></h2>
 
@@ -186,6 +193,7 @@ The Fan Board uses pre-made fan control boards to control the RPM of the fans. I
 - 1x Usb B Micro B Circuit board (for power)
 
 <b>Steps:</b>
+  1. Mount the power board and solder in a 1000 Ohm resistor between the power and ground sides. This creates a power port. The GND side represents your ground, and 5V your high voltage.
 
 <b><h2> Step 3f: Combine the Electronics </b></h2>
 
