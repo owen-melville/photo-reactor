@@ -1,5 +1,5 @@
 <b><h1>Overview:</b></h1>
-This repository contains the STL files and instructions for the assembly of the LEDbyXAmple photoreactor. 
+This repository contains the STL files and instructions for the assembly of the LEDbyXAmple photoreactor. This photoreactor is designed for 8 mL (2 dram) vials, but is easily altered for use with larger vials. Most components are modular and easy to swap. 
 
 <img src="https://github.com/user-attachments/assets/329264f6-ba9a-4603-b425-6119a54de8dd" width="200"/>
 
