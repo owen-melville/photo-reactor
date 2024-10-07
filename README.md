@@ -1,9 +1,15 @@
-<b><h1>Overview:</b></h1>
-This repository contains the STL files and instructions for the assembly of the LEDbyXAmple photoreactor. This photoreactor is designed for 8 mL (2 dram) vials, but is easily altered for use with larger vials. Most components are modular and easy to swap. 
-
 <img src="https://github.com/user-attachments/assets/329264f6-ba9a-4603-b425-6119a54de8dd" width="200"/>
 
-Last Updated 2024-10-03 By Owen Alfred Melville, Staff Scientist at the Acceleration Consortium in Toronto. 
+<b><h1>Overview:</b></h1>
+This repository contains the STL files and instructions for the assembly of the LEDbyXample photoreactor. This photoreactor is designed for 8 mL (2 dram) vials, but is easily altered for use with larger vials. Most components are modular and easy to swap. Last Updated 2024-10-07 By Owen Alfred Melville, Staff Scientist at the Acceleration Consortium in Toronto. 
+
+<b><h2>Why LEDbyXample? <b><h2>
+<b> Low Cost: </b> Existing photoreactors on the market are quite expensive. One of the cheapest, the [Pioreactor](https://pioreactor.com/en-ca/products/pioreactor-20ml?variant=46984254554168), costs about $340 USD (~$460 CAD). There is no need for such a large price. The main parts for the LEDbyXample photoreactor cost about $60 USD ($80 CAD), with additional electronic components from kits costing about $75 USD (~$100 CAD). Many of these additional parts are small electronic components that users may already have, and the kits provide more parts than are required by the reactor. Many of the components could also likely be sourced for cheaper as long as the builders are able to perform their own quality control checks. 
+
+<b> Skill Development: </b> The LEDbyXample photoreactor is made largely from scratch. This allows builders to develop their DIY skills (3D printing, electronics prototyping, microcontroller use). It contains clear build instructions with photos, links to videos, and clear part lists with links. The Python code used to communicate with the microcontroller is designed to be clear and easily modified. 
+
+<b> Modular / Customizable: </b> 
+
 
 <b><h2>Summary of Steps:</b></h2>
   1. Order the required items
