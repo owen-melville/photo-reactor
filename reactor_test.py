@@ -10,7 +10,7 @@ try:
     pr.add_led(gpio_pin=0)
     pr.add_led(gpio_pin=1)
 
-    duty_cycle = pr.initialize_fan(fan_index=0,duty_cycle=30) #Initialize fan 0 with duty cycle = 30 
+    duty_cycle = pr.initialize_fan(fan_index=0,starting_duty_cycle=30) #Initialize fan 0 with duty cycle = 30 
     duty_cycle = pr.set_fan_rpm(fan_index=0,target_rpm=600,duty_cycle=duty_cycle) #Move fan 0 to 600 rpm
     pr.turn_on_LED(0)
     pr.turn_on_LED(1)

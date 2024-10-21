@@ -16,13 +16,13 @@ class PhotoReactor:
         self.FANS.append ( EMC2101.EMC2101(fan) )
 
     def add_led(self, gpio_pin):
-        led = machine.Pin(gpio_pin, Pin.OUT) 
+        led = Pin(gpio_pin, Pin.OUT) 
         led.init()
         self.LEDS.append(led)
 
     #Turn on an LED with specified index
     def turn_on_LED(self,LED_index):
-        self.LEDs[LED_index].high()
+        self.LEDS[LED_index].high()
 
     #Turn off an LED with specified index
     def turn_off_LED(self,LED_index):
