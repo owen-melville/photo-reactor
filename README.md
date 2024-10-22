@@ -3,7 +3,14 @@
 <b><h1>Overview:</b></h1>
 This repository contains the STL files and instructions for the assembly of the LEDbyXample photoreactor. This photoreactor is designed for 8 mL (2 dram) vials and uses ~1 Watt LEDs, but is easily altered for use with larger vials. Most components are modular and easy to swap.
 
-Last Updated 2024-10-07 By Owen Alfred Melville, Staff Scientist at the Acceleration Consortium in Toronto. 
+
+
+<b><h2>Authors:</b></h2>
+
+Owen Alfred Melville, Staff Scientist <br>
+Monique Ngan, Automation Technician <br>
+[Acceleration Consortium](https://acceleration.utoronto.ca/) <br>
+Last Updated 2024-10-22 <br>
 
 <b><h2>Why LEDbyXample? </b></h2>
 <b> Low Cost: </b> Existing photoreactors on the market are quite expensive. One of the cheapest, the [Pioreactor](https://pioreactor.com/en-ca/products/pioreactor-20ml?variant=46984254554168), costs about $340 USD ($460 CAD). There is no need for such a large price. The main parts for the LEDbyXample photoreactor cost about $60 USD ($80 CAD), with additional electronic components from kits costing about $75 USD (~$100 CAD). Many of these additional parts are small electronic components that users may already have, and the kits provide more parts than are required by the reactor. Many of the components could also likely be sourced for cheaper as long as the builders are able to perform their own quality control checks. 
@@ -69,6 +76,8 @@ These materials come in kits, so you may not need them if you already have simil
   - Solder
   - Filament for 3D printing (eg [PLA](https://ca.store.bambulab.com/products/pla-basic-filament?gad_source=1&gclid=Cj0KCQjwpP63BhDYARIsAOQkATYc5jM-nciSOOw8pbxHA_WIkh3n5OJYfMMvQm4q8-BjsxyQY5-RIlQaAhdqEALw_wcB) and [ASA](https://ca.store.bambulab.com/products/asa-filament?srsltid=AfmBOor0TaklWc8wcPPxX6YhTCeVZ4l1UiV82qqBd3xhd9iYvP6Alb0c))
 
+![20241007_171458](https://github.com/user-attachments/assets/88faec97-b661-46e4-adcb-f67da310cef3)
+
 <b><h1>Step 2: 3D Print the Parts: </b></h1>
 
 All the 3D printed parts can be printed with 0.2 mm layer height and a 0.4 mm nozzle. For prototyping or low-temperature reactors, PLA filament can be used. For higher temperatures or shorter wavelength (blue,violet,UV), ASA can be used. Since ASA tends to warp, I recommend using glue stick on the print bed. 
@@ -77,7 +86,7 @@ All the 3D printed parts can be printed with 0.2 mm layer height and a 0.4 mm no
 | ------------------ | ------------------------ | ---------------------------- | ----------------------- | --------------------------------------- |
 | LED_holder.stl     | Holds LED + Heat Sink    | None                         | 1 per LED               |                                         |
 | blank_holder.stl   | Blocks Window            | None                         | 1 per unblocked window  |                                         |
-| fan_base.stl       | Holds Fan + Magnets      | Supports                     | 1                       | Change inset for larger fan             |
+| fan_base.stl       | Holds Fan + Magnets      | Tree Supports from base only | 1                       | Change inset for larger fan             |
 | fan_holder.stl     | Holds Cooling Fan        | Tree supports from base only | Only if cooling desired |                                         |
 | reactor_shield.stl | Holds Vial               | Tree supports from base only | 1                       | Change circle diameter for larger vial  |
 | screw_base.stl     | Connects reactor to base | None                         | 1                       | Change screw pattern for different base |
@@ -111,7 +120,7 @@ The LED Holder takes the 3D printed insert, and adds in a heat sink and a ~1W LE
   3. ***Tricky step Alert*** Attach a red wire to the + labelled pad on the right of the star. Wearing temperature resistant gloves, heat up your soldering iron in a well ventilated area. Hold the wire down on the soldering pad carefully with the soldering iron for a few seconds with your dominant hand. Using your non-dominant hand, feed solder to the pad from different directions, allowing it to flow onto the pad. Put away the solder quickly, then use your non-dominant hand to hold down the wire as you carefully remove the soldering iron and replace it in its holder. Allow the solder to cool before you remove your hand. The wire should be encased in solder that has made a strong bind with the pad. If after 2 minutes, gentle pressure on the solder pushes it off the pad, you may need to clean the pad and repeat the process. For tips on this process, see this video (Time Stamp 4:30) https://www.youtube.com/watch?v=H-82av4zQKY&ab_channel=MrTroutDT
   4. Repeat the last process using a black wire and the - labelled pad on the right of the star. Ensure the contact has been well made after completion
 
-***Insert image here of properly soldered wires on LED star***
+![20241010_162001](https://github.com/user-attachments/assets/32c3599f-7942-4f20-a431-ed609db9fcdc)
  
   5. Remove the adhesive from the heat sink, and slide it into the 3D printed LED holder. Note that the spikes of the heat sink point outwards, towards the thinner side. The flat side of the heat sink should point inwards towards the thinner side.
      
