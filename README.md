@@ -76,7 +76,9 @@ These materials come in kits, so you may not need them if you already have simil
   - Solder
   - Filament for 3D printing (eg [PLA](https://ca.store.bambulab.com/products/pla-basic-filament?gad_source=1&gclid=Cj0KCQjwpP63BhDYARIsAOQkATYc5jM-nciSOOw8pbxHA_WIkh3n5OJYfMMvQm4q8-BjsxyQY5-RIlQaAhdqEALw_wcB) and [ASA](https://ca.store.bambulab.com/products/asa-filament?srsltid=AfmBOor0TaklWc8wcPPxX6YhTCeVZ4l1UiV82qqBd3xhd9iYvP6Alb0c))
 
-![20241007_171458](https://github.com/user-attachments/assets/88faec97-b661-46e4-adcb-f67da310cef3)
+<b><h2>Photo of Materials </b></h2>
+<img src="https://github.com/user-attachments/assets/501b1e70-e123-421b-b196-48e409a7eaa9" width="800"/> <br>
+
 
 <b><h1>Step 2: 3D Print the Parts: </b></h1>
 
@@ -117,10 +119,13 @@ The LED Holder takes the 3D printed insert, and adds in a heat sink and a ~1W LE
 <img src="https://github.com/user-attachments/assets/f5ad7750-d359-4cf4-9f4c-2d04c2cf09ac" width="200"/>
  
   2. Clean the LED star pads using rubbing alcohol (isopropanol) and a tissue
-  3. ***Tricky step Alert*** Attach a red wire to the + labelled pad on the right of the star. Wearing temperature resistant gloves, heat up your soldering iron in a well ventilated area. Hold the wire down on the soldering pad carefully with the soldering iron for a few seconds with your dominant hand. Using your non-dominant hand, feed solder to the pad from different directions, allowing it to flow onto the pad. Put away the solder quickly, then use your non-dominant hand to hold down the wire as you carefully remove the soldering iron and replace it in its holder. Allow the solder to cool before you remove your hand. The wire should be encased in solder that has made a strong bind with the pad. If after 2 minutes, gentle pressure on the solder pushes it off the pad, you may need to clean the pad and repeat the process. For tips on this process, see this video (Time Stamp 4:30) https://www.youtube.com/watch?v=H-82av4zQKY&ab_channel=MrTroutDT
+  3. ***Tricky step Alert*** Attach a red wire to the + labelled pad on the right of the star, and tape it down away from the pad to keep it in place. Heat up your soldering iron in a well ventilated area, then place it over the wire. Using your non-dominant hand, feed solder to the pad from different directions, allowing it to flow onto the pad. Once the solder has covered the whole pad, carefully remove the soldering iron and replace it in its holder. The wire should be encased in solder that has made a strong bind with the pad. If after 2 minutes, gentle pressure on the solder pushes it off the pad, you may need to clean the pad and repeat the process. For tips on this process, see this video (Time Stamp 4:30) https://www.youtube.com/watch?v=H-82av4zQKY&ab_channel=MrTroutDT
+
+insert video here
+
   4. Repeat the last process using a black wire and the - labelled pad on the right of the star. Ensure the contact has been well made after completion
 
-![20241010_162001](https://github.com/user-attachments/assets/32c3599f-7942-4f20-a431-ed609db9fcdc)
+<img src="https://github.com/user-attachments/assets/32c3599f-7942-4f20-a431-ed609db9fcdc" width="400"/>
  
   5. Remove the adhesive from the heat sink, and slide it into the 3D printed LED holder. Note that the spikes of the heat sink point outwards, towards the thinner side. The flat side of the heat sink should point inwards towards the thinner side.
      
@@ -165,9 +170,15 @@ The fan base holds a fan with magnets to allow for magnetic stirring.
 
 <img src="https://github.com/user-attachments/assets/e3d64590-094e-4241-b5e5-eb869c47dd86" width="200"/>
 
-  4. Using the same technique as in Step 3a - 7, use solder seal connectors to extend the length of the fan wires by attaching them to pre-crimped wires, then carefully insert the pre-crimped wires into the connector head. Alternatively, if you have a pre-wired connector with 4 wire leads, you can use that instead.
+  4. <b>Attach the connectors:</b> You can wire the fan to a 4-pin connector using the optional kit or an alternative. 
+  
+  <i>Using Optional Kit:</i> Using the same technique as in Step 3a - 7, use solder seal connectors to extend the length of the fan wires by attaching them to pre-crimped wires from the electrical connector kit. Then, connect each wire to the connector head. When inserted correctly, the ends of the wire should be fully contained inside the plastic connectors, and fit snugly in place.
 
-***Insert image here of completed Fan Base***
+<img src="https://github.com/user-attachments/assets/1c7ae419-4b70-4708-9fc9-78c2f4f0db90" width="300"/><img src="https://github.com/user-attachments/assets/3e2fc185-a7a7-454d-abe7-26f17d035467" width="300"/><img src="https://github.com/user-attachments/assets/0d30857c-bc3d-4d44-adf1-b6a340a8582b" width="300"/>
+
+  <i>Using Other Connectors:</i>If you have a pre-wired connector with 4 wire leads, you can use that instead of the connector kit. Using the same technique as in Step 3a - 7, use solder seal connectors to connect the fan wires to your pre-wired 4-pin connector. 
+
+<img src="https://github.com/user-attachments/assets/763c8651-534d-45f1-b7f5-290e057cda4a" width="400"/>
 
 <i>Congratulations, you have created your Fan Base which is used to stir a magnetic rod in the reactor </i>
 
@@ -183,10 +194,16 @@ The fan holder holds a fan to actively cool the reactor vial. The cooling capaci
 
 <b>Steps:</b>
   1. Thread the wires through the hole near the bottom of the fan holder, with the black side of the fan facing out.
-  2. Carefully pull on the wires and pull the fan into its slot. 
+
+<img src="" width="200"/>
+
+  2. Carefully pull on the wires and pull the fan into its slot.
+
+<img src="" width="200"/>
+    
   3. Using the same technique as in Step 3a - 7, use solder seal connectors to extend the length of the fan wires by attaching them to pre-crimped wires, then carefully insert the pre-crimped wires into the connector head. Alternatively, if you have a pre-wired connector with 4 wire leads, you can use that instead.
 
-***TODO - Document this process with images***
+<img src="" width="400"/>
 
 <b><h2> Step 3d: Assemble the LED Board </b></h2>
 
