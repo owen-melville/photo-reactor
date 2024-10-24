@@ -178,7 +178,7 @@ The fan base holds a fan with magnets to allow for magnetic stirring.
 
   <i>Using Other Connectors:</i> If you have a pre-wired connector with 4 wire leads, you can use that instead of the connector kit. Using the same technique as in Step 3a - 7, use solder seal connectors to connect the fan wires to your pre-wired 4-pin connector. 
 
-<img src="https://github.com/user-attachments/assets/763c8651-534d-45f1-b7f5-290e057cda4a" width="400"/>
+<img src="https://github.com/user-attachments/assets/72303172-57d6-4a45-badc-7784df92e15e" width="400"/>
 
 <i>Congratulations, you have created your Fan Base which is used to stir a magnetic rod in the reactor </i>
 
@@ -203,7 +203,7 @@ The fan holder holds a fan to actively cool the reactor vial. The cooling capaci
 
   3. Using the same technique as in Step 3a - 7, use solder seal connectors to extend the length of the fan wires by attaching them to pre-crimped wires, then carefully insert the pre-crimped wires into the connector head. Alternatively, if you have a pre-wired connector with 4 wire leads, you can use that instead.
 
-<img src="https://github.com/user-attachments/assets/7e24735a-b705-447c-bbe6-42b5cc13e7c" width="400"/>
+<img src="https://github.com/user-attachments/assets/ca9832b9-e13d-449d-b706-0cea9f68d433" width="400"/>
 
 <b><h2> Step 3d: Assemble the LED Board </b></h2>
 
