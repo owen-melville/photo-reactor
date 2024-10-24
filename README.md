@@ -176,7 +176,7 @@ The fan base holds a fan with magnets to allow for magnetic stirring.
 
 <img src="https://github.com/user-attachments/assets/1c7ae419-4b70-4708-9fc9-78c2f4f0db90" width="300"/><img src="https://github.com/user-attachments/assets/3e2fc185-a7a7-454d-abe7-26f17d035467" width="300"/><img src="https://github.com/user-attachments/assets/0d30857c-bc3d-4d44-adf1-b6a340a8582b" width="300"/>
 
-  <i>Using Other Connectors:</i>If you have a pre-wired connector with 4 wire leads, you can use that instead of the connector kit. Using the same technique as in Step 3a - 7, use solder seal connectors to connect the fan wires to your pre-wired 4-pin connector. 
+  <i>Using Other Connectors:</i> If you have a pre-wired connector with 4 wire leads, you can use that instead of the connector kit. Using the same technique as in Step 3a - 7, use solder seal connectors to connect the fan wires to your pre-wired 4-pin connector. 
 
 <img src="https://github.com/user-attachments/assets/763c8651-534d-45f1-b7f5-290e057cda4a" width="400"/>
 
@@ -195,22 +195,22 @@ The fan holder holds a fan to actively cool the reactor vial. The cooling capaci
 <b>Steps:</b>
   1. Thread the wires through the hole near the bottom of the fan holder, with the black side of the fan facing out.
 
-<img src="" width="200"/>
+<img src="https://github.com/user-attachments/assets/f0f54a80-086c-4ea3-97b7-6a5aff1c70cd" width="200"/>
 
   2. Carefully pull on the wires and pull the fan into its slot.
 
-<img src="" width="200"/>
-    
+<img src="https://github.com/user-attachments/assets/530b5e00-fb60-4061-bba2-5d57997112f3" width="200"/>
+
   3. Using the same technique as in Step 3a - 7, use solder seal connectors to extend the length of the fan wires by attaching them to pre-crimped wires, then carefully insert the pre-crimped wires into the connector head. Alternatively, if you have a pre-wired connector with 4 wire leads, you can use that instead.
 
-<img src="" width="400"/>
+<img src="https://github.com/user-attachments/assets/7e24735a-b705-447c-bbe6-42b5cc13e7c" width="400"/>
 
 <b><h2> Step 3d: Assemble the LED Board </b></h2>
 
 The LED Board uses transistors to control the on/off status of the LEDs, with the signal to the transistor coming from the Rasperry pi. It also has a power inlet port to power the LEDs separately from the Pi, as they draw quite a bit of current. In the future, an LED board could be purchased to directly control the LED, including its intensity, something not currently possible with this design. The design described here controls 2 LEDs at a time, but it could be extended to control more LEDs at once. 
 
 <b>Parts Required:</b>
-- PCB board
+- PCB board from Kit (smallest board fits with the optional electronics holder)
 - Wires
 - 1x 1000 Ohm resistor
 - 2x 5.6 Ohm resistor
