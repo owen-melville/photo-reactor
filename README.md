@@ -121,7 +121,9 @@ The LED Holder takes the 3D printed insert, and adds in a heat sink and a ~1W LE
   2. Clean the LED star pads using rubbing alcohol (isopropanol) and a tissue
   3. ***Tricky step Alert*** Attach a red wire to the + labelled pad on the right of the star, and tape it down away from the pad to keep it in place. Heat up your soldering iron in a well ventilated area, then place it over the wire. Using your non-dominant hand, feed solder to the pad from different directions, allowing it to flow onto the pad. Once the solder has covered the whole pad, carefully remove the soldering iron and replace it in its holder. The wire should be encased in solder that has made a strong bind with the pad. If after 2 minutes, gentle pressure on the solder pushes it off the pad, you may need to clean the pad and repeat the process. For tips on this process, see this video (Time Stamp 4:30) https://www.youtube.com/watch?v=H-82av4zQKY&ab_channel=MrTroutDT
 
-insert video here
+
+https://github.com/user-attachments/assets/7bd34561-cb51-4cb3-8f49-8e8b69328b1f
+
 
   4. Repeat the last process using a black wire and the - labelled pad on the right of the star. Ensure the contact has been well made after completion
 
@@ -201,6 +203,8 @@ The fan holder holds a fan to actively cool the reactor vial. The cooling capaci
 
 <img src="https://github.com/user-attachments/assets/530b5e00-fb60-4061-bba2-5d57997112f3" width="200"/>
 
+<i>Congratulations, you have created your Fan Holder which is used to cool the reactor </i>
+
   3. Using the same technique as in Step 3a - 7, use solder seal connectors to extend the length of the fan wires by attaching them to pre-crimped wires, then carefully insert the pre-crimped wires into the connector head. Alternatively, if you have a pre-wired connector with 4 wire leads, you can use that instead.
 
 <img src="https://github.com/user-attachments/assets/ca9832b9-e13d-449d-b706-0cea9f68d433" width="400"/>
@@ -231,9 +235,14 @@ The LED Board uses transistors to control the on/off status of the LEDs, with th
   3. Solder wires into the open circles that connect to the RPi GPIO pins. The other end of the wire can be bare or an open pin. We will connect these to the RPi in a later step.
   4. Solder wires into the open circles that connect to the LED. For clarity, you can use red wires to go towards the power supply, and black wires towards the transistors. These wires should be at their other end connected to the complementary connectors that you used in Steps 3a-7 and 3a-8. These are meant to connect and disconnect the LED holders so you can change them.
   5. Solder a black wire from the ground/- terminal. The other end of the wire can be bare or an open pin. We will connect this wire to the RPi Ground Pin in a later step, to ensure a common ground.
+  
+<img src="https://github.com/user-attachments/assets/9afe2258-821c-457f-b0fd-84a86cb2db12" width="400"/>
+  
   6. (Optional): To add more LED outputs, add more of this section of the circuit diagram, connected in the same way. If you add many more LEDs, you may require a power supply that is rated for higher current. 
 
-<img src="https://github.com/user-attachments/assets/9afe2258-821c-457f-b0fd-84a86cb2db12" width="400"/>
+<img src="https://github.com/user-attachments/assets/3d178e2d-80eb-4003-b73c-21f0d1d6c7ba" width="400"/>
+
+<i>Congratulations, you have created your LED Board which is used to control the reactor LEDs</i>
 
 <b><h2> Step 3e: Assemble the Fan Board </b></h2>
 
@@ -257,6 +266,10 @@ The Fan Board uses pre-made fan control boards to control the RPM of the fans. I
   4. For each Fan Control Board, attach a Grove to Fan Board Connector. This will connect to the RPi.
   5. Take the power (red), ground (black), tach (yellow), and fan (blue) wires and connect them to a 4-pin connector that complements the one you created for your fans in step 3b-4. 
 
+<img src="https://github.com/user-attachments/assets/24645da1-c7f1-4156-a71e-eaadc0973199" width="400"/>
+
+<i>Congratulations, you have created your Fan Board which is used to control the reactor Fans</i>
+
 <b><h2> Step 3f: Combine the Electronics </b></h2>
 
 We need to connect the boards to the raspberry pi, which controls them. Optionally, you can choose to house them in the 3D printed holder, the parts of which you would need to print. This housing is only to keep the electronics tidy, and is not needed. 
@@ -269,6 +282,12 @@ We need to connect the boards to the raspberry pi, which controls them. Optional
 - Usb B Micro B to Usb A cable
 - Power supplies (x2)
 - (Optional): 3D Printed electronics housing
+
+![20241022_104235](https://github.com/user-attachments/assets/de60fa9d-b3a7-4d3d-9422-c25d8a3d01f0)
+
+![20241022_104916](https://github.com/user-attachments/assets/62df0b9c-4685-476f-ac98-35a04919de7a)
+
+![20241022_105334](https://github.com/user-attachments/assets/a8aeecdd-5958-4516-b0fa-05f81ab622aa)
 
 <b>Steps:</b>
   1. (Optional) Print the electronics housing. See the table below for the parts and a photo of the assembled housing.
