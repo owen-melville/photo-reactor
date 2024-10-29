@@ -200,11 +200,11 @@ The fan holder holds a fan to actively cool the reactor vial. The cooling capaci
 
 <img src="https://github.com/user-attachments/assets/530b5e00-fb60-4061-bba2-5d57997112f3" width="200"/>
 
-<i>Congratulations, you have created your Fan Holder which is used to cool the reactor </i>
-
   3. Using the same technique as in Step 3a - 7, use solder seal connectors to extend the length of the fan wires by attaching them to pre-crimped wires, then carefully insert the pre-crimped wires into the connector head. Alternatively, if you have a pre-wired connector with 4 wire leads, you can use that instead.
 
 <img src="https://github.com/user-attachments/assets/ca9832b9-e13d-449d-b706-0cea9f68d433" width="400"/>
+
+<i>Congratulations, you have created your Fan Holder which is used to cool the reactor </i>
 
 <b><h2> Step 3d: Assemble the LED Board </b></h2>
 
@@ -280,11 +280,9 @@ We need to connect the boards to the raspberry pi, which controls them. Optional
 - Power supplies (x2)
 - (Optional): 3D Printed electronics housing
 
-![20241022_104235](https://github.com/user-attachments/assets/de60fa9d-b3a7-4d3d-9422-c25d8a3d01f0)
-
-![20241022_104916](https://github.com/user-attachments/assets/62df0b9c-4685-476f-ac98-35a04919de7a)
-
-![20241022_105334](https://github.com/user-attachments/assets/a8aeecdd-5958-4516-b0fa-05f81ab622aa)
+<img src="https://github.com/user-attachments/assets/de60fa9d-b3a7-4d3d-9422-c25d8a3d01f0" width="400"/>
+<img src="https://github.com/user-attachments/assets/62df0b9c-4685-476f-ac98-35a04919de7a" width="400"/>
+<img src="https://github.com/user-attachments/assets/a8aeecdd-5958-4516-b0fa-05f81ab622aa" width="400"/>
 
 <b>Steps:</b>
   1. (Optional) Print the electronics housing. See the table below for the parts and a photo of the assembled housing.
