@@ -3,8 +3,6 @@
 <b><h1>Overview:</b></h1>
 This repository contains the STL files and instructions for the assembly of the LEDbyXample photoreactor. This photoreactor is designed for 8 mL (2 dram) vials and uses ~1 Watt LEDs, but is easily altered for use with larger vials. Most components are modular and easy to swap.
 
-
-
 <b><h2>Authors:</b></h2>
 
 Owen Alfred Melville, Staff Scientist <br>
@@ -17,8 +15,7 @@ Last Updated 2024-10-22 <br>
 
 <b> Skill Development: </b> The LEDbyXample photoreactor is made largely from scratch. This allows builders to develop their DIY skills (3D printing, electronics prototyping, microcontroller use). It contains clear build instructions with photos, links to videos, and clear part lists with links. The Python code used to communicate with the microcontroller is designed to be clear and easily modified. 
 
-<b> Modular / Customizable: </b> 
-
+<b> Modular / Customizable: </b> The LEDbyXample photoreactor is designed to be modular, with components (LEDs, fans, bases) that can be easily removed or swapped. The 3D printed parts that comprise the physical reactor can be modified to accomodate for different vial sizes. 
 
 <b><h2>Summary of Steps:</b></h2>
   1. Order the required items
