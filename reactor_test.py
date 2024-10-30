@@ -15,10 +15,10 @@ try:
     pr.turn_on_LED(0)
     pr.turn_on_LED(1)
     pr.hold_fan_rpm(fan_index=0,target_rpm=600,target_time=120,duty_cycle=duty_cycle) #Hold the fan at 600 rpm as best as possible for 120 s
-    pr.turn_off_fan()
+    pr.turn_off_fan(0)
     pr.turn_off_LED(0)
     pr.turn_off_LED(1)
 except KeyboardInterrupt:
-    pr.turn_off_fan()
+    pr.turn_off_fan(0)
     pr.turn_off_LED(0)
     pr.turn_off_LED(1)
