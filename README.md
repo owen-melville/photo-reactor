@@ -285,15 +285,10 @@ We need to connect the boards to the raspberry pi, which controls them. Optional
   2. Common ground: Take the wires directed towards "RPi Ground" from the Fan and LED Boards and connect them to any open pin on the Raspberry Pi Pico labelled GND.
   3. Signal wires (LEDs): Take the wires directed towards "RPi GPIO Pin 0" and "RPi GPIO Pin 1" from the LED board and connect them to the Raspberry Pi Pico in the corresponding Pins ("GP0" and "GP1")
   4. Signal wires (Fans): Take the Grove-to-stemma connectors from the fan boards and connect them to the top-right corner slots on the Raspberry Pi Pico (with the USB connector oriented up).
-  5. Connect the 
 
 <img src="https://github.com/user-attachments/assets/de60fa9d-b3a7-4d3d-9422-c25d8a3d01f0" width="400"/> <br>
-<img src="https://github.com/user-attachments/assets/62df0b9c-4685-476f-ac98-35a04919de7a" width="400"/> <br>
-<img src="https://github.com/user-attachments/assets/a8aeecdd-5958-4516-b0fa-05f81ab622aa" width="400"/> 
 
-
-
-
+<i> Congratulations, you have finished assembling the electronics! </i>
 
 <b><h2> Step 3g: Assemble the Reactor </b></h2>
 
@@ -307,11 +302,13 @@ We need to connect the boards to the raspberry pi, which controls them. Optional
   - Screw Base (Optional)
 
 <b>Steps:</b>
-  1. Assemble the reactor parts. The LED holder, blank holders, and fan holders should slot easily into the 4 slots on the sides of the reactor shield. The reactor shield slots onto the fan base, which slots onto the screw base.
-  2. Connect the electrical connectors for each LED and fan to the electrical setup. 
-  3. The screw base has slots for fastening the base of the reactor. These could be modified to attach the reactor to a different base or with different screws.
+  1. Connect the electrical connectors for each LED and fan to the electrical setup.
 
-***Insert image of assembled reactor***
+<img src="https://github.com/user-attachments/assets/62df0b9c-4685-476f-ac98-35a04919de7a" width="400"/> <br>
+
+  2. Assemble the reactor parts. The LED holder, blank holders, and fan holders should slot easily into the 4 slots on the sides of the reactor shield. The reactor shield slots onto the fan base, which slots onto the screw base. The screw base has slots for fastening the base of the reactor. These could be modified to attach the reactor to a different base or with different screws.
+
+<img src="https://github.com/user-attachments/assets/a8aeecdd-5958-4516-b0fa-05f81ab622aa" width="400"/> 
 
 <i> Congratulations, you have fully assembled the LEDbyXAmple photoreactor! </i>
 
@@ -322,15 +319,36 @@ To operate the photoreactor, we will need to use a Python script that connects t
 <b><h2> Step 4a: Installations </b></h2>
 
 <b>Steps:</b>
-  1. Install a code editor such as vscode.
+  1. Install a code editor, we recommend VSCode. 
   2. Install Python on your computer if it is not already installed.
-  3. Install micropython into vscode (or whatever editor you are using) to interface with the RPi Pico.
-  4. Connect the RPi Pico to your computer using the Usb B Micro B to Usb A Cable. Troubleshoot if the Pico is not connecting.
+  3. Install Micropico extension in VScode
+  4. Connect the RPi Pico to your computer using the Usb B Micro B to Usb A Cable, while pressing the BOOTSEL button on the Pico. A file directory for the Pico should show up in your file explorer.
+  5. Flash the Raspberry Pi  by downloading the [MicroPython UF2 file for Pico W](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html) into your computer and moving the file to the directory of the Raspberry Pi. The file directory should disappear after this and disconnect it from your computer.
+  6. Open a new “micropico vPERL” terminal in VS code
+  7. When the Raspberry Pi is connected it should show a success message in green text.
+
+![VS Code - Raspberry Pi Connected](https://github.com/user-attachments/assets/98e207d4-47e1-4f2b-a559-222c2ae830b2)
 
 <b><h2> Step 4b: Python Scripts </b></h2>
 
 <b>Steps:</b>
-  1. Download the 
+  1. Download the python scripts from this github repository, including photo_reactor.py and reactor_test.py and the "lib" folder with the drivers for the fan boards
+  2. In VSCode, “Configure project” for the folder that contains the lib folder, photo_reactor.py & reactor_test.py files
+  3. Upload the project to Raspberry Pi by right clicking on folder containing all the project files & select  “Upload project to Pico”
+  4. To run the test code, select reactor_test.py file & right click to choose “Run current file on Pico”
+
+<b> NOTE: Do not look directly at your LEDs! We recommend using blue-light blocking glasses and never looking directly at the emitted light </b>
+	
+<b><h2> Step 4b: Operation <b></b>
+
+<b>Functions:</b>
+  1. <b> add_fan ( fan ) </b> takes in the SoftI2C address with two pins that are associated with controlling the fan, these numbers will change depending on which slot you put your fans in on the pico board
+  2. <b> add_led ( pin ) </b> takes in the GPIO pin number for a specific LED to set it up for operation
+  3. <b> turn_on_led ( index ) </b> turns on the LED with the specified index
+  4. <b> turn_off_led ( index ) </b> turns off the LED with the specified index
+  5. <b> initialize_fan ( index, starting_duty_cycle) </b> attempts to turn on fan with specific index, it will try different duty cycles until it is able to measure an rpm (sometimes the initial duty cycle is insufficient when there is a load like a stir bar in a thick liquid. Note that the fan may not initialize if the stir bar is too close or too far away from the magnets. This matters more if you are using a different vial than the 2 dram (8 mL) vial this reactor was designed for. This function returns the duty cycle that was sufficient to activate the fan. 
+  6. <b> set_fan_rpm (index, target_rpm, duty_cycle) </b> This attempts to get the specified fan to reach a specific rpm, starting with the specified duty cycle. It may not maintain that rpm, but will keep the same duty cycle, which is returned by the function.
+  7. <b> hold_fan_rpm (index, target_rpm, target_time, duty cycle) </b> This attempts to adjust the input duty cycle to maintain a target rpm for a specific time period. This means adjusting the duty cycle up and down slightly as needed. 
 
 
 <b><h1> Future Steps </b></h1>
