@@ -280,12 +280,20 @@ We need to connect the boards to the raspberry pi, which controls them. Optional
 - Power supplies (x2)
 - (Optional): 3D Printed electronics housing
 
-<img src="https://github.com/user-attachments/assets/de60fa9d-b3a7-4d3d-9422-c25d8a3d01f0" width="400"/>
-<img src="https://github.com/user-attachments/assets/62df0b9c-4685-476f-ac98-35a04919de7a" width="400"/>
-<img src="https://github.com/user-attachments/assets/a8aeecdd-5958-4516-b0fa-05f81ab622aa" width="400"/>
-
 <b>Steps:</b>
-  1. (Optional) Print the electronics housing. See the table below for the parts and a photo of the assembled housing.
+  1. Place the Raspberry Pi into the Grove Shield. This requires some force so that it goes in all the way.
+  2. Common ground: Take the wires directed towards "RPi Ground" from the Fan and LED Boards and connect them to any open pin on the Raspberry Pi Pico labelled GND.
+  3. Signal wires (LEDs): Take the wires directed towards "RPi GPIO Pin 0" and "RPi GPIO Pin 1" from the LED board and connect them to the Raspberry Pi Pico in the corresponding Pins ("GP0" and "GP1")
+  4. Signal wires (Fans): Take the Grove-to-stemma connectors from the fan boards and connect them to the top-right corner slots on the Raspberry Pi Pico (with the USB connector oriented up).
+  5. Connect the 
+
+<img src="https://github.com/user-attachments/assets/de60fa9d-b3a7-4d3d-9422-c25d8a3d01f0" width="400"/> <br>
+<img src="https://github.com/user-attachments/assets/62df0b9c-4685-476f-ac98-35a04919de7a" width="400"/> <br>
+<img src="https://github.com/user-attachments/assets/a8aeecdd-5958-4516-b0fa-05f81ab622aa" width="400"/> 
+
+
+
+
 
 <b><h2> Step 3g: Assemble the Reactor </b></h2>
 
