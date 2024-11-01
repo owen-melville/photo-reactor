@@ -1,6 +1,6 @@
 from lib import EMC2101
 from time import sleep
-from machine import Pin, SoftI2C, I2C
+from machine import Pin, SoftI2C, I2C, PWM
 import math
 
 
@@ -16,17 +16,25 @@ class PhotoReactor:
         self.FANS.append ( EMC2101.EMC2101(fan) )
 
     def add_led(self, gpio_pin):
-        led = Pin(gpio_pin, Pin.OUT) 
-        led.init()
-        self.LEDS.append(led)
+        led_pwm = PWM(Pin(gpio_pin))
+        led_pwm.freq(1000) 
+        self.LEDS.append(led_pwm)
 
     #Turn on an LED with specified index
     def turn_on_LED(self,LED_index):
-        self.LEDS[LED_index].high()
+        self.set_brightness(LED_index, 100)
+
+    #Set the brightness of the specified LED to a specific value (duty cycle should be 0 to 100)
+    def set_brightness(self, LED_index, duty_cycle):
+        DUTY_CYCLE_MAX = 65535
+        if 0 <= duty_cycle <= 100:
+            self.LEDS[LED_index].duty_u16(int(DUTY_CYCLE_MAX*duty_cycle/100))
+        else:
+            print("Duty cycle not between 0 and 100%")
 
     #Turn off an LED with specified index
     def turn_off_LED(self,LED_index):
-        self.LEDS[LED_index].low()
+        self.set_brightness(LED_index, 0)
 
     #Turn off a fan with a specified index
     def turn_off_fan(self,fan_index):
