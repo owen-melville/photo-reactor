@@ -288,6 +288,10 @@ We need to connect the boards to the raspberry pi, which controls them. Optional
 
 <img src="https://github.com/user-attachments/assets/de60fa9d-b3a7-4d3d-9422-c25d8a3d01f0" width="400"/> <br>
 
+<b> Optional: Add the electronics to a housing </b>
+
+Section TBD
+
 <i> Congratulations, you have finished assembling the electronics! </i>
 
 <b><h2> Step 3g: Assemble the Reactor </b></h2>
@@ -308,7 +312,7 @@ We need to connect the boards to the raspberry pi, which controls them. Optional
 
   2. Assemble the reactor parts. The LED holder, blank holders, and fan holders should slot easily into the 4 slots on the sides of the reactor shield. The reactor shield slots onto the fan base, which slots onto the screw base. The screw base has slots for fastening the base of the reactor. These could be modified to attach the reactor to a different base or with different screws.
 
-<img src="https://github.com/user-attachments/assets/a8aeecdd-5958-4516-b0fa-05f81ab622aa" width="400"/> 
+<img src="https://github.com/user-attachments/assets/a8aeecdd-5958-4516-b0fa-05f81ab622aa" width="400"/> </br>
 
 <i> Congratulations, you have fully assembled the LEDbyXAmple photoreactor! </i>
 
@@ -339,7 +343,9 @@ To operate the photoreactor, we will need to use a Python script that connects t
 
 <b> NOTE: Do not look directly at your LEDs! We recommend using blue-light blocking glasses and never looking directly at the emitted light </b>
 	
-<b><h2> Step 4b: Operation <b></b>
+<b><h2> Step 4b: Operation </h2></b>
+
+The LEDbyXample photoreactor currently has two functions: Switch on/off the LEDs (could have up to 4 in one reactor) and initialize/set the rpm of the fans (both for stirring and cooling). Future implementation: Dimming of the LEDs using pulse width modulation. 
 
 <b>Functions:</b>
   1. <b> add_fan ( fan ) </b> takes in the SoftI2C address with two pins that are associated with controlling the fan, these numbers will change depending on which slot you put your fans in on the pico board
