@@ -15,19 +15,11 @@ try:
     #duty_cycle = pr.set_fan_rpm(fan_index=0,target_rpm=600,duty_cycle=duty_cycle) #Move fan 0 to 600 rpm
     pr.turn_on_LED(0)
     pr.turn_on_LED(1)
-
-    #time.sleep(3)
-
-    for i in range (0, 20):
-        pr.set_brightness(0, 100-i*5)
-        pr.set_brightness(1, 100-i*5)
-        time.sleep(0.5)
-
-    #pr.hold_fan_rpm(fan_index=0,target_rpm=600,target_time=120,duty_cycle=duty_cycle) #Hold the fan at 600 rpm as best as possible for 120 s
-    #pr.turn_off_fan()
+    pr.hold_fan_rpm(fan_index=0,target_rpm=600,target_time=120,duty_cycle=duty_cycle) #Hold the fan at 600 rpm as best as possible for 120 s
+    pr.turn_off_fan(0)
     pr.turn_off_LED(0)
     pr.turn_off_LED(1)
 except KeyboardInterrupt:
-    pr.turn_off_fan()
+    pr.turn_off_fan(0)
     pr.turn_off_LED(0)
     pr.turn_off_LED(1)

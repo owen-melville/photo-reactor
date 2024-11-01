@@ -3,15 +3,19 @@
 <b><h1>Overview:</b></h1>
 This repository contains the STL files and instructions for the assembly of the LEDbyXample photoreactor. This photoreactor is designed for 8 mL (2 dram) vials and uses ~1 Watt LEDs, but is easily altered for use with larger vials. Most components are modular and easy to swap.
 
-Last Updated 2024-10-07 By Owen Alfred Melville, Staff Scientist at the Acceleration Consortium in Toronto. 
+<b><h2>Authors:</b></h2>
+
+Owen Alfred Melville, Staff Scientist <br>
+Monique Ngan, Automation Technician <br>
+[Acceleration Consortium](https://acceleration.utoronto.ca/) <br>
+Last Updated 2024-10-22 <br>
 
 <b><h2>Why LEDbyXample? </b></h2>
 <b> Low Cost: </b> Existing photoreactors on the market are quite expensive. One of the cheapest, the [Pioreactor](https://pioreactor.com/en-ca/products/pioreactor-20ml?variant=46984254554168), costs about $340 USD ($460 CAD). There is no need for such a large price. The main parts for the LEDbyXample photoreactor cost about $60 USD ($80 CAD), with additional electronic components from kits costing about $75 USD (~$100 CAD). Many of these additional parts are small electronic components that users may already have, and the kits provide more parts than are required by the reactor. Many of the components could also likely be sourced for cheaper as long as the builders are able to perform their own quality control checks. 
 
 <b> Skill Development: </b> The LEDbyXample photoreactor is made largely from scratch. This allows builders to develop their DIY skills (3D printing, electronics prototyping, microcontroller use). It contains clear build instructions with photos, links to videos, and clear part lists with links. The Python code used to communicate with the microcontroller is designed to be clear and easily modified. 
 
-<b> Modular / Customizable: </b> 
-
+<b> Modular / Customizable: </b> The LEDbyXample photoreactor is designed to be modular, with components (LEDs, fans, bases) that can be easily removed or swapped. The 3D printed parts that comprise the physical reactor can be modified to accomodate for different vial sizes. 
 
 <b><h2>Summary of Steps:</b></h2>
   1. Order the required items
@@ -69,6 +73,10 @@ These materials come in kits, so you may not need them if you already have simil
   - Solder
   - Filament for 3D printing (eg [PLA](https://ca.store.bambulab.com/products/pla-basic-filament?gad_source=1&gclid=Cj0KCQjwpP63BhDYARIsAOQkATYc5jM-nciSOOw8pbxHA_WIkh3n5OJYfMMvQm4q8-BjsxyQY5-RIlQaAhdqEALw_wcB) and [ASA](https://ca.store.bambulab.com/products/asa-filament?srsltid=AfmBOor0TaklWc8wcPPxX6YhTCeVZ4l1UiV82qqBd3xhd9iYvP6Alb0c))
 
+<b><h2>Photo of Materials </b></h2>
+<img src="https://github.com/user-attachments/assets/501b1e70-e123-421b-b196-48e409a7eaa9" width="800"/> <br>
+
+
 <b><h1>Step 2: 3D Print the Parts: </b></h1>
 
 All the 3D printed parts can be printed with 0.2 mm layer height and a 0.4 mm nozzle. For prototyping or low-temperature reactors, PLA filament can be used. For higher temperatures or shorter wavelength (blue,violet,UV), ASA can be used. Since ASA tends to warp, I recommend using glue stick on the print bed. 
@@ -77,7 +85,7 @@ All the 3D printed parts can be printed with 0.2 mm layer height and a 0.4 mm no
 | ------------------ | ------------------------ | ---------------------------- | ----------------------- | --------------------------------------- |
 | LED_holder.stl     | Holds LED + Heat Sink    | None                         | 1 per LED               |                                         |
 | blank_holder.stl   | Blocks Window            | None                         | 1 per unblocked window  |                                         |
-| fan_base.stl       | Holds Fan + Magnets      | Supports                     | 1                       | Change inset for larger fan             |
+| fan_base.stl       | Holds Fan + Magnets      | Tree Supports from base only | 1                       | Change inset for larger fan             |
 | fan_holder.stl     | Holds Cooling Fan        | Tree supports from base only | Only if cooling desired |                                         |
 | reactor_shield.stl | Holds Vial               | Tree supports from base only | 1                       | Change circle diameter for larger vial  |
 | screw_base.stl     | Connects reactor to base | None                         | 1                       | Change screw pattern for different base |
@@ -108,10 +116,15 @@ The LED Holder takes the 3D printed insert, and adds in a heat sink and a ~1W LE
 <img src="https://github.com/user-attachments/assets/f5ad7750-d359-4cf4-9f4c-2d04c2cf09ac" width="200"/>
  
   2. Clean the LED star pads using rubbing alcohol (isopropanol) and a tissue
-  3. ***Tricky step Alert*** Attach a red wire to the + labelled pad on the right of the star. Wearing temperature resistant gloves, heat up your soldering iron in a well ventilated area. Hold the wire down on the soldering pad carefully with the soldering iron for a few seconds with your dominant hand. Using your non-dominant hand, feed solder to the pad from different directions, allowing it to flow onto the pad. Put away the solder quickly, then use your non-dominant hand to hold down the wire as you carefully remove the soldering iron and replace it in its holder. Allow the solder to cool before you remove your hand. The wire should be encased in solder that has made a strong bind with the pad. If after 2 minutes, gentle pressure on the solder pushes it off the pad, you may need to clean the pad and repeat the process. For tips on this process, see this video (Time Stamp 4:30) https://www.youtube.com/watch?v=H-82av4zQKY&ab_channel=MrTroutDT
+  3. ***Tricky step Alert*** Attach a red wire to the + labelled pad on the right of the star, and tape it down away from the pad to keep it in place. Heat up your soldering iron in a well ventilated area, then place it over the wire. Using your non-dominant hand, feed solder to the pad from different directions, allowing it to flow onto the pad. Once the solder has covered the whole pad, carefully remove the soldering iron and replace it in its holder. The wire should be encased in solder that has made a strong bind with the pad. If after 2 minutes, gentle pressure on the solder pushes it off the pad, you may need to clean the pad and repeat the process. For tips on this process, see this video (Time Stamp 4:30) https://www.youtube.com/watch?v=H-82av4zQKY&ab_channel=MrTroutDT
+
+
+https://github.com/user-attachments/assets/7bd34561-cb51-4cb3-8f49-8e8b69328b1f
+
+
   4. Repeat the last process using a black wire and the - labelled pad on the right of the star. Ensure the contact has been well made after completion
 
-***Insert image here of properly soldered wires on LED star***
+<img src="https://github.com/user-attachments/assets/32c3599f-7942-4f20-a431-ed609db9fcdc" width="400"/>
  
   5. Remove the adhesive from the heat sink, and slide it into the 3D printed LED holder. Note that the spikes of the heat sink point outwards, towards the thinner side. The flat side of the heat sink should point inwards towards the thinner side.
      
@@ -156,9 +169,15 @@ The fan base holds a fan with magnets to allow for magnetic stirring.
 
 <img src="https://github.com/user-attachments/assets/e3d64590-094e-4241-b5e5-eb869c47dd86" width="200"/>
 
-  4. Using the same technique as in Step 3a - 7, use solder seal connectors to extend the length of the fan wires by attaching them to pre-crimped wires, then carefully insert the pre-crimped wires into the connector head. Alternatively, if you have a pre-wired connector with 4 wire leads, you can use that instead.
+  4. <b>Attach the connectors:</b> You can wire the fan to a 4-pin connector using the optional kit or an alternative. 
+  
+  <i>Using Optional Kit:</i> Using the same technique as in Step 3a - 7, use solder seal connectors to extend the length of the fan wires by attaching them to pre-crimped wires from the electrical connector kit. Then, connect each wire to the connector head. When inserted correctly, the ends of the wire should be fully contained inside the plastic connectors, and fit snugly in place.
 
-***Insert image here of completed Fan Base***
+<img src="https://github.com/user-attachments/assets/1c7ae419-4b70-4708-9fc9-78c2f4f0db90" width="300"/><img src="https://github.com/user-attachments/assets/3e2fc185-a7a7-454d-abe7-26f17d035467" width="300"/><img src="https://github.com/user-attachments/assets/0d30857c-bc3d-4d44-adf1-b6a340a8582b" width="300"/>
+
+  <i>Using Other Connectors:</i> If you have a pre-wired connector with 4 wire leads, you can use that instead of the connector kit. Using the same technique as in Step 3a - 7, use solder seal connectors to connect the fan wires to your pre-wired 4-pin connector. 
+
+<img src="https://github.com/user-attachments/assets/72303172-57d6-4a45-badc-7784df92e15e" width="400"/>
 
 <i>Congratulations, you have created your Fan Base which is used to stir a magnetic rod in the reactor </i>
 
@@ -174,17 +193,25 @@ The fan holder holds a fan to actively cool the reactor vial. The cooling capaci
 
 <b>Steps:</b>
   1. Thread the wires through the hole near the bottom of the fan holder, with the black side of the fan facing out.
-  2. Carefully pull on the wires and pull the fan into its slot. 
+
+<img src="https://github.com/user-attachments/assets/f0f54a80-086c-4ea3-97b7-6a5aff1c70cd" width="200"/>
+
+  2. Carefully pull on the wires and pull the fan into its slot.
+
+<img src="https://github.com/user-attachments/assets/530b5e00-fb60-4061-bba2-5d57997112f3" width="200"/>
+
   3. Using the same technique as in Step 3a - 7, use solder seal connectors to extend the length of the fan wires by attaching them to pre-crimped wires, then carefully insert the pre-crimped wires into the connector head. Alternatively, if you have a pre-wired connector with 4 wire leads, you can use that instead.
 
-***TODO - Document this process with images***
+<img src="https://github.com/user-attachments/assets/ca9832b9-e13d-449d-b706-0cea9f68d433" width="400"/>
+
+<i>Congratulations, you have created your Fan Holder which is used to cool the reactor </i>
 
 <b><h2> Step 3d: Assemble the LED Board </b></h2>
 
 The LED Board uses transistors to control the on/off status of the LEDs, with the signal to the transistor coming from the Rasperry pi. It also has a power inlet port to power the LEDs separately from the Pi, as they draw quite a bit of current. In the future, an LED board could be purchased to directly control the LED, including its intensity, something not currently possible with this design. The design described here controls 2 LEDs at a time, but it could be extended to control more LEDs at once. 
 
 <b>Parts Required:</b>
-- PCB board
+- PCB board from Kit (smallest board fits with the optional electronics holder)
 - Wires
 - 1x 1000 Ohm resistor
 - 2x 5.6 Ohm resistor
@@ -205,9 +232,14 @@ The LED Board uses transistors to control the on/off status of the LEDs, with th
   3. Solder wires into the open circles that connect to the RPi GPIO pins. The other end of the wire can be bare or an open pin. We will connect these to the RPi in a later step.
   4. Solder wires into the open circles that connect to the LED. For clarity, you can use red wires to go towards the power supply, and black wires towards the transistors. These wires should be at their other end connected to the complementary connectors that you used in Steps 3a-7 and 3a-8. These are meant to connect and disconnect the LED holders so you can change them.
   5. Solder a black wire from the ground/- terminal. The other end of the wire can be bare or an open pin. We will connect this wire to the RPi Ground Pin in a later step, to ensure a common ground.
+  
+<img src="https://github.com/user-attachments/assets/9afe2258-821c-457f-b0fd-84a86cb2db12" width="400"/>
+  
   6. (Optional): To add more LED outputs, add more of this section of the circuit diagram, connected in the same way. If you add many more LEDs, you may require a power supply that is rated for higher current. 
 
-<img src="https://github.com/user-attachments/assets/9afe2258-821c-457f-b0fd-84a86cb2db12" width="400"/>
+<img src="https://github.com/user-attachments/assets/3d178e2d-80eb-4003-b73c-21f0d1d6c7ba" width="400"/>
+
+<i>Congratulations, you have created your LED Board which is used to control the reactor LEDs</i>
 
 <b><h2> Step 3e: Assemble the Fan Board </b></h2>
 
@@ -231,6 +263,10 @@ The Fan Board uses pre-made fan control boards to control the RPM of the fans. I
   4. For each Fan Control Board, attach a Grove to Fan Board Connector. This will connect to the RPi.
   5. Take the power (red), ground (black), tach (yellow), and fan (blue) wires and connect them to a 4-pin connector that complements the one you created for your fans in step 3b-4. 
 
+<img src="https://github.com/user-attachments/assets/24645da1-c7f1-4156-a71e-eaadc0973199" width="400"/>
+
+<i>Congratulations, you have created your Fan Board which is used to control the reactor Fans</i>
+
 <b><h2> Step 3f: Combine the Electronics </b></h2>
 
 We need to connect the boards to the raspberry pi, which controls them. Optionally, you can choose to house them in the 3D printed holder, the parts of which you would need to print. This housing is only to keep the electronics tidy, and is not needed. 
@@ -245,7 +281,18 @@ We need to connect the boards to the raspberry pi, which controls them. Optional
 - (Optional): 3D Printed electronics housing
 
 <b>Steps:</b>
-  1. (Optional) Print the electronics housing. See the table below for the parts and a photo of the assembled housing.
+  1. Place the Raspberry Pi into the Grove Shield. This requires some force so that it goes in all the way.
+  2. Common ground: Take the wires directed towards "RPi Ground" from the Fan and LED Boards and connect them to any open pin on the Raspberry Pi Pico labelled GND.
+  3. Signal wires (LEDs): Take the wires directed towards "RPi GPIO Pin 0" and "RPi GPIO Pin 1" from the LED board and connect them to the Raspberry Pi Pico in the corresponding Pins ("GP0" and "GP1")
+  4. Signal wires (Fans): Take the Grove-to-stemma connectors from the fan boards and connect them to the top-right corner slots on the Raspberry Pi Pico (with the USB connector oriented up).
+
+<img src="https://github.com/user-attachments/assets/de60fa9d-b3a7-4d3d-9422-c25d8a3d01f0" width="400"/> <br>
+
+<b> Optional: Add the electronics to a housing </b>
+
+Section TBD
+
+<i> Congratulations, you have finished assembling the electronics! </i>
 
 <b><h2> Step 3g: Assemble the Reactor </b></h2>
 
@@ -259,11 +306,13 @@ We need to connect the boards to the raspberry pi, which controls them. Optional
   - Screw Base (Optional)
 
 <b>Steps:</b>
-  1. Assemble the reactor parts. The LED holder, blank holders, and fan holders should slot easily into the 4 slots on the sides of the reactor shield. The reactor shield slots onto the fan base, which slots onto the screw base.
-  2. Connect the electrical connectors for each LED and fan to the electrical setup. 
-  3. The screw base has slots for fastening the base of the reactor. These could be modified to attach the reactor to a different base or with different screws.
+  1. Connect the electrical connectors for each LED and fan to the electrical setup.
 
-***Insert image of assembled reactor***
+<img src="https://github.com/user-attachments/assets/62df0b9c-4685-476f-ac98-35a04919de7a" width="400"/> <br>
+
+  2. Assemble the reactor parts. The LED holder, blank holders, and fan holders should slot easily into the 4 slots on the sides of the reactor shield. The reactor shield slots onto the fan base, which slots onto the screw base. The screw base has slots for fastening the base of the reactor. These could be modified to attach the reactor to a different base or with different screws.
+
+<img src="https://github.com/user-attachments/assets/a8aeecdd-5958-4516-b0fa-05f81ab622aa" width="400"/> </br>
 
 <i> Congratulations, you have fully assembled the LEDbyXAmple photoreactor! </i>
 
@@ -274,15 +323,38 @@ To operate the photoreactor, we will need to use a Python script that connects t
 <b><h2> Step 4a: Installations </b></h2>
 
 <b>Steps:</b>
-  1. Install a code editor such as vscode.
+  1. Install a code editor, we recommend VSCode. 
   2. Install Python on your computer if it is not already installed.
-  3. Install micropython into vscode (or whatever editor you are using) to interface with the RPi Pico.
-  4. Connect the RPi Pico to your computer using the Usb B Micro B to Usb A Cable. Troubleshoot if the Pico is not connecting.
+  3. Install Micropico extension in VScode
+  4. Connect the RPi Pico to your computer using the Usb B Micro B to Usb A Cable, while pressing the BOOTSEL button on the Pico. A file directory for the Pico should show up in your file explorer.
+  5. Flash the Raspberry Pi  by downloading the [MicroPython UF2 file for Pico W](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html) into your computer and moving the file to the directory of the Raspberry Pi. The file directory should disappear after this and disconnect it from your computer.
+  6. Open a new “micropico vPERL” terminal in VS code
+  7. When the Raspberry Pi is connected it should show a success message in green text.
+
+![VS Code - Raspberry Pi Connected](https://github.com/user-attachments/assets/98e207d4-47e1-4f2b-a559-222c2ae830b2)
 
 <b><h2> Step 4b: Python Scripts </b></h2>
 
 <b>Steps:</b>
-  1. Download the 
+  1. Download the python scripts from this github repository, including photo_reactor.py and reactor_test.py and the "lib" folder with the drivers for the fan boards
+  2. In VSCode, “Configure project” for the folder that contains the lib folder, photo_reactor.py & reactor_test.py files
+  3. Upload the project to Raspberry Pi by right clicking on folder containing all the project files & select  “Upload project to Pico”
+  4. To run the test code, select reactor_test.py file & right click to choose “Run current file on Pico”
+
+<b> NOTE: Do not look directly at your LEDs! We recommend using blue-light blocking glasses and never looking directly at the emitted light </b>
+	
+<b><h2> Step 4b: Operation </h2></b>
+
+The LEDbyXample photoreactor currently has two functions: Switch on/off the LEDs (could have up to 4 in one reactor) and initialize/set the rpm of the fans (both for stirring and cooling). Future implementation: Dimming of the LEDs using pulse width modulation. 
+
+<b>Functions:</b>
+  1. <b> add_fan ( fan ) </b> takes in the SoftI2C address with two pins that are associated with controlling the fan, these numbers will change depending on which slot you put your fans in on the pico board
+  2. <b> add_led ( pin ) </b> takes in the GPIO pin number for a specific LED to set it up for operation
+  3. <b> turn_on_led ( index ) </b> turns on the LED with the specified index
+  4. <b> turn_off_led ( index ) </b> turns off the LED with the specified index
+  5. <b> initialize_fan ( index, starting_duty_cycle) </b> attempts to turn on fan with specific index, it will try different duty cycles until it is able to measure an rpm (sometimes the initial duty cycle is insufficient when there is a load like a stir bar in a thick liquid. Note that the fan may not initialize if the stir bar is too close or too far away from the magnets. This matters more if you are using a different vial than the 2 dram (8 mL) vial this reactor was designed for. This function returns the duty cycle that was sufficient to activate the fan. 
+  6. <b> set_fan_rpm (index, target_rpm, duty_cycle) </b> This attempts to get the specified fan to reach a specific rpm, starting with the specified duty cycle. It may not maintain that rpm, but will keep the same duty cycle, which is returned by the function.
+  7. <b> hold_fan_rpm (index, target_rpm, target_time, duty cycle) </b> This attempts to adjust the input duty cycle to maintain a target rpm for a specific time period. This means adjusting the duty cycle up and down slightly as needed. 
 
 
 <b><h1> Future Steps </b></h1>
