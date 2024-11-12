@@ -11,7 +11,7 @@ Monique Ngan, Automation Technician <br>
 Last Updated 2024-10-22 <br>
 
 <b><h2>Why LEDbyXample? </b></h2>
-<b> Low Cost: </b> Existing photoreactors on the market are quite expensive. One of the cheapest, the [Pioreactor](https://pioreactor.com/en-ca/products/pioreactor-20ml?variant=46984254554168), costs about $340 USD ($460 CAD). There is no need for such a large price. The main parts for the LEDbyXample photoreactor cost about $60 USD ($80 CAD), with additional electronic components from kits costing about $75 USD (~$100 CAD). Many of these additional parts are small electronic components that users may already have, and the kits provide more parts than are required by the reactor. Many of the components could also likely be sourced for cheaper as long as the builders are able to perform their own quality control checks. 
+<b> Low Cost: </b> Existing photoreactors on the market are quite expensive. One of the cheapest, the [Pioreactor](https://pioreactor.com/en-ca/products/pioreactor-20ml?variant=46984254554168), costs about $340 USD ($460 CAD). There is no need for such a large price. The main parts for the LEDbyXample photoreactor cost about $80 USD, with additional electronic components from kits costing another $80 USD. Many of these additional parts are small electronic components that users may already have, and the kits provide more parts than are required by the reactor. Many of the components could also likely be sourced for cheaper as long as the builders are able to perform their own quality control checks. 
 
 <b> Skill Development: </b> The LEDbyXample photoreactor is made largely from scratch. This allows builders to develop their DIY skills (3D printing, electronics prototyping, microcontroller use). It contains clear build instructions with photos, links to videos, and clear part lists with links. The Python code used to communicate with the microcontroller is designed to be clear and easily modified. 
 
@@ -39,34 +39,38 @@ The majority of the components for this project are electronic.
 
 <b><h2>Materials Required:</b></h2>
 
-These materials are required for the photoreactor. You would need to purchase more to make additional photoreactors. Note, only 1x Fan and 1x Fan Board are strictly needed for stirring. The active cooling Fan and Fan Board are optional. The total cost with 2 LED modules and 1 active cooling (fan) module is $80.14 CAD or ~$60 USD. 
+These materials are required for the photoreactor. You would need to purchase more to make additional photoreactors. Note, only 1x Fan and 1x Fan Board are strictly needed for stirring. The active cooling Fan and Fan Board are optional. The total cost with 2 LED modules and 1 active cooling (fan) module is $82.80 USD. 
 
-| Item                             | Supplier | Part number                   |Number | Cost  | Total Cost |
+| Item                             | Supplier | Part number                   |Number | Cost (USD) | Total Cost (USD) |
 | -------------------------------- | -------- | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ----- |
 | [Raspberry Pi Pico WH](https://www.pishop.ca/product/raspberry-pi-pico-wh-pre-soldered-headers/  )            | PiShop   | 402-1               |           1      | 9.8   | 9.8        |
 | [Grove Shield for Pico](https://www.digikey.ca/en/products/detail/seeed-technology-co-ltd/103100142/13688265?s=N4IgTCBcDaIIwFYCcB2AtHADAZi5uALGGgHIAiIAugL5A)            | Digikey  | 1597-103100142-ND              | 1      | 6.25  | 6.25       |
 | [Fan Control Board](https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4808/13590573?s=N4IgTCBcDaIIwFYwA4C0AWZAGNA5AIiALoC%2BQA )               | Digikey  | 1528-4808-ND                   | 2      | 7.99  | 15.98      |
 | [Square Fan (20mm Diameter)](https://www.digikey.ca/en/products/detail/cui-devices/CFM-2006CF-060-078-22/19524716?s=N4IgTCBcDa5mBmAtAYQGIFkkAIwAY8A2dJIvHPAdgA4l4kA5AERAF0BfIA)       | Digikey  | 2223-CFM-2006CF-060-078-22-ND |  2      | 11.06 | 22.12      |
 | [Grove to Fan Board Connectors](https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4528/11627737?s=N4IgTCBcDaIIwFYwA4C0AWJaByAREAugL5A)   | Digikey  | 1528-4528-ND                  | 2      | 2.83  | 5.66       |
-| [Usb B Micro B Circuit board](https://www.digikey.ca/en/products/detail/adafruit-industries-llc/1833/5629431?s=N4IgTCBcDaIK4GcBGACVBbAlgYwE4Hs018BDXAExRPJIDNc5MAXEAXQF8g)     | Digikey  | 1528-1383-ND                  |  1      | 2.83  | 2.83       |
-| [Usb B Micro B to Usb A cable](https://www.digikey.ca/en/products/detail/cvilux-usa/DH-20M50057/13177527)    | Digikey  | 2987-DH-20M50057-ND           |  2      | 1.78  | 3.56       |
+| [Power Barrel Connector](https://www.digikey.ca/en/products/detail/same-sky-formerly-cui-devices/PJ-102AH/408448)     | Digikey  | PJ-102AH                  |  1      | 1.02  | 1.02       |
+| [Power Supply](https://www.digikey.ca/en/products/detail/tri-mag-llc/L6R06H-050/7682614)    | Digikey  | L6R06H-050           |  1      | 5.31  | 5.31       |
 | [LED Stars (Green)](https://www.digikey.ca/en/products/detail/new-energy/LST1-01H06-GRN1-01/10663110?s=N4IgTCBcDaIDIGUAqBGAtABhQCQwNjQHEAlAOXSxAF0BfIA)               | Digikey  | LST1-01H06-GRN1-01            |  2      | 6.41  | 12.82      |
 | [NPN Transistor](https://www.digikey.ca/en/products/detail/nexperia-usa-inc/PZT2222A-115/1158011?s=N4IgTCBcDaIIwHYwILQBYwFYwrigBAHIAiIAugL5A )                  | Digikey  | 1727-4252-1-ND                |  2      | 0.56  | 1.12       |
-| Total Cost (CAD) | $80.14
+| [USB Cable for Pico](https://www.digikey.com/en/products/detail/cvilux-usa/DH-20M50056/13177301) |  Digikey | DH-20M50056 | 1 | 2.72 | 2.72 |
+| Total Cost (USD) | | | | | <b> $82.80 </b> |
+| Total Cost (CAD) | | | | |<b> $115.53 </b> |
 
 <b><h2>Materials Required - Kits:</b></h2>
 
 These materials come in kits, so you may not need them if you already have similar materials. They can be used for multiple reactors or other projects. 
 
-| Item                             | Supplier |  Cost  |
+| Item                             | Supplier |  Cost (CAD) |
 | -------------------------------- | -------- |  ----- |
-| [Prototype PCB Board](https://www.amazon.ca/BOJACK-6-Prototype-Soldering-Compatible-Arduino/dp/B091PZQ4W7/    )              | Amazon         | 21.99 |
-| [Nyodenium Magnets 6mm x 2mm](https://www.amazon.ca/Magnets-Refrigertor-Whiteboard-Durable-Multi-Use/dp/B07BJFD6FL/)      | Amazon     | 9.99  |
-| [Heat Sinks](https://www.amazon.ca/Awxlumv-Heatsink-25-x25-x10/dp/B08CMK8BMT/ )                       | Amazon   |  10.99 |
-| [Resistors](https://www.amazon.ca/Resistor-Assorted-Resistors-Assortment-Experiments/dp/B07L851T3V/?th=1 )                        | Amazon   | 17.99 |
-| [Optional: Solder Seal Connectors](https://www.amazon.ca/Kuject-Connectors-Waterproof-Electrical-Automotive/dp/B073RMRCC3/) | Amazon   | 16.99 |
-| [Optional: Electrical Connectors](https://www.amazon.ca/1-25mm-Connectors-Pre-Crimped-Pixhawk-Silicone/dp/B07S18D3RN/ )  | Amazon           | 21.99 |
-| Total Cost (CAD) | $99.94 |
+| [Prototype PCB Board](https://www.amazon.ca/BOJACK-6-Prototype-Soldering-Compatible-Arduino/dp/B091PZQ4W7/    )              | Amazon Canada        | 21.99 |
+| [Nyodenium Magnets 6mm x 2mm](https://www.amazon.ca/Magnets-Refrigertor-Whiteboard-Durable-Multi-Use/dp/B07BJFD6FL/)      | Amazon Canada     | 9.99  |
+| [Heat Sinks](https://www.amazon.ca/Awxlumv-Heatsink-25-x25-x10/dp/B08CMK8BMT/ )                       | Amazon Canada   |  10.99 |
+| [Resistors](https://www.amazon.ca/Resistor-Assorted-Resistors-Assortment-Experiments/dp/B07L851T3V/?th=1 )                        | Amazon Canada   | 17.99 |
+| [Solder Seal Connectors](https://www.amazon.ca/Kuject-Connectors-Waterproof-Electrical-Automotive/dp/B073RMRCC3/) | Amazon Canada   | 16.99 |
+| [4-Pin Connectors](https://www.amazon.ca/1-25mm-Connectors-Pre-Crimped-Pixhawk-Silicone/dp/B07S18D3RN/ )  | Amazon Canada           | 21.99 |
+| [2-Pin Connectors](https://www.amazon.ca/dp/B00T2U76V0/ref=olp-opf-redir?aod=1&th=1) | Amazon Canada | 10.77 |
+| Total Cost (USD) | | <b> $79.29  </b>| 
+| Total Cost (CAD) | | <b> $110.71 </b> |
 
 <b><h2>Generic Materials Required</b></h2>
   - Wires (at least red, black, blue, and yellow)
@@ -74,8 +78,7 @@ These materials come in kits, so you may not need them if you already have simil
   - Filament for 3D printing (eg [PLA](https://ca.store.bambulab.com/products/pla-basic-filament?gad_source=1&gclid=Cj0KCQjwpP63BhDYARIsAOQkATYc5jM-nciSOOw8pbxHA_WIkh3n5OJYfMMvQm4q8-BjsxyQY5-RIlQaAhdqEALw_wcB) and [ASA](https://ca.store.bambulab.com/products/asa-filament?srsltid=AfmBOor0TaklWc8wcPPxX6YhTCeVZ4l1UiV82qqBd3xhd9iYvP6Alb0c))
 
 <b><h2>Photo of Materials </b></h2>
-<img src="https://github.com/user-attachments/assets/501b1e70-e123-421b-b196-48e409a7eaa9" width="800"/> <br>
-
+<img src="https://github.com/user-attachments/assets/755f7d33-3f28-4b20-b5f1-a5f32581dd48" width="800"/> <br>
 
 <b><h1>Step 2: 3D Print the Parts: </b></h1>
 
@@ -105,9 +108,9 @@ The LED Holder takes the 3D printed insert, and adds in a heat sink and a ~1W LE
 <b>Parts Required:</b>
 - LED star
 - Wires
-- Wire connectors (***)
+- 2-Pin Connectors (or alternative)
 - 3D Printed LED Holder
-- Optional: Solder seal connectors
+- Solder seal connectors
 - Heat sinks
 
 <b>Steps:</b>
@@ -154,7 +157,7 @@ The fan base holds a fan with magnets to allow for magnetic stirring.
 - Wires
 - Super glue / double-sided tape
 - Magnets (x2)
-- Electrical connectors kit (or alternative connectors)
+- 4-Pin Connectors (or alternative)
 
 <b>Steps:</b>
   1. Thread the wires through the hole near the center of the fan base, with the black side of the fan facing up.
@@ -189,7 +192,7 @@ The fan holder holds a fan to actively cool the reactor vial. The cooling capaci
 - 3D Printed Fan Holder
 - Fan
 - Wires
-- Electrical connectors kit (or alternative connectors)
+- 4-Pin Connectors (or alternative)
 
 <b>Steps:</b>
   1. Thread the wires through the hole near the bottom of the fan holder, with the black side of the fan facing out.
@@ -217,8 +220,9 @@ The LED Board uses transistors to control the on/off status of the LEDs, with th
 - 2x 5.6 Ohm resistor
 - 2x 390 Ohm resistor
 - 2x NPN Transistors
-- Electrical Connectors
-- 1x Usb B Micro B Circuit board (for power)
+- 4-Pin Connectors (or alternative)
+- 2-Pin Connectors (or alternative)
+- 1x Power Barrel Connector
 
 <b>Steps:</b>
 
@@ -251,13 +255,14 @@ The Fan Board uses pre-made fan control boards to control the RPM of the fans. I
 - 1x 1000 Ohm resistor
 - 2x Fan Control Board
 - 2x Grove to Fan Board Connectors
-- 1x Usb B Micro B Circuit board (for power)
+- 1x Power Barrel Connector (Optional)
 
 <b>Steps:</b>
 
 <img src="https://github.com/user-attachments/assets/cb81da7f-3da0-43e1-a4db-d8c14636db3a" width="200"/>
 
-  1. Mount the power board and solder in a 1000 Ohm resistor between the power and ground sides. This creates a power port. The GND side represents your ground, and 5V your high voltage.
+  1a. (Optional) Mount the power board and solder in a 1000 Ohm resistor between the power and ground sides. This creates a power port. The GND side represents your ground, and 5V your high voltage.
+  1b. Alternatively, you can connect the 5V using a wire to the 5V section of the LED board or to the 5V Pin in the Pico. This means one less power supply, but will draw power either from the LED power supply or from the Pico (which you don't want to draw too much from). 
   2. Solder the circuit diagram above. Solder wires into the open circles for the fan power (red) and ground (black). These will go to the 4-pin connector to the fan.
   3. For each Fan Control Board, solder wires into the "FAN" (blue) and "TACH" (yellow) ports, the other ends will go to the 4-pin connector to the fan.
   4. For each Fan Control Board, attach a Grove to Fan Board Connector. This will connect to the RPi.
@@ -276,8 +281,9 @@ We need to connect the boards to the raspberry pi, which controls them. Optional
 - Assembled LED Board (Step 3d)
 - Raspberry Pi Pico WH
 - Grove Shield for Pico
-- Usb B Micro B to Usb A cable
-- Power supplies (x2)
+- USB Cable for Pico (USB-A to micro-USB)
+- Power Supply (for LED Board)
+- (Optional): Power Supply (for Fan Board)
 - (Optional): 3D Printed electronics housing
 
 <b>Steps:</b>
@@ -352,9 +358,10 @@ The LEDbyXample photoreactor currently has two functions: Switch on/off the LEDs
   2. <b> add_led ( pin ) </b> takes in the GPIO pin number for a specific LED to set it up for operation
   3. <b> turn_on_led ( index ) </b> turns on the LED with the specified index
   4. <b> turn_off_led ( index ) </b> turns off the LED with the specified index
-  5. <b> initialize_fan ( index, starting_duty_cycle) </b> attempts to turn on fan with specific index, it will try different duty cycles until it is able to measure an rpm (sometimes the initial duty cycle is insufficient when there is a load like a stir bar in a thick liquid. Note that the fan may not initialize if the stir bar is too close or too far away from the magnets. This matters more if you are using a different vial than the 2 dram (8 mL) vial this reactor was designed for. This function returns the duty cycle that was sufficient to activate the fan. 
-  6. <b> set_fan_rpm (index, target_rpm, duty_cycle) </b> This attempts to get the specified fan to reach a specific rpm, starting with the specified duty cycle. It may not maintain that rpm, but will keep the same duty cycle, which is returned by the function.
-  7. <b> hold_fan_rpm (index, target_rpm, target_time, duty cycle) </b> This attempts to adjust the input duty cycle to maintain a target rpm for a specific time period. This means adjusting the duty cycle up and down slightly as needed. 
+  5. <b> set_led_brightness (index, duty_cycle) </b> Set the brightness of an LED to between 0 and 100 (duty_cycle) 
+  6. <b> initialize_fan ( index, starting_duty_cycle) </b> attempts to turn on fan with specific index, it will try different duty cycles until it is able to measure an rpm (sometimes the initial duty cycle is insufficient when there is a load like a stir bar in a thick liquid. Note that the fan may not initialize if the stir bar is too close or too far away from the magnets. This matters more if you are using a different vial than the 2 dram (8 mL) vial this reactor was designed for. This function returns the duty cycle that was sufficient to activate the fan. 
+  7. <b> set_fan_rpm (index, target_rpm, duty_cycle) </b> This attempts to get the specified fan to reach a specific rpm, starting with the specified duty cycle. It may not maintain that rpm, but will keep the same duty cycle, which is returned by the function.
+  8. <b> hold_fan_rpm (index, target_rpm, target_time, duty cycle) </b> This attempts to adjust the input duty cycle to maintain a target rpm for a specific time period. This means adjusting the duty cycle up and down slightly as needed. 
 
 
 <b><h1> Future Steps </b></h1>
