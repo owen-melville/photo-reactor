@@ -214,7 +214,7 @@ The fan holder holds a fan to actively cool the reactor vial. The cooling capaci
 The LED Board uses transistors to control the on/off status of the LEDs, with the signal to the transistor coming from the Rasperry pi. It also has a power inlet port to power the LEDs separately from the Pi, as they draw quite a bit of current. In the future, an LED board could be purchased to directly control the LED, including its intensity, something not currently possible with this design. The design described here controls 2 LEDs at a time, but it could be extended to control more LEDs at once. 
 
 <b>Parts Required:</b>
-- PCB board from Kit (smallest board fits with the optional electronics holder)
+- PCB board from Kit (60x40 mm)
 - Wires
 - 1x 1000 Ohm resistor
 - 2x 5.6 Ohm resistor
@@ -250,7 +250,7 @@ The LED Board uses transistors to control the on/off status of the LEDs, with th
 The Fan Board uses pre-made fan control boards to control the RPM of the fans. It connects to the Rasperry pi and to a separate power supply. The current design is for 2 fans (1 cooling, 1 stirring) but could be easily be extended for use with more fans. 
 
 <b>Parts Required:</b>
-- PCB board
+- PCB board (60x40 mm)
 - Wires
 - 1x 1000 Ohm resistor
 - 2x Fan Control Board
@@ -296,7 +296,28 @@ We need to connect the boards to the raspberry pi, which controls them. Optional
 
 <b> Optional: Add the electronics to a housing </b>
 
-Section TBD
+The electronics housing can be used to house the Raspberry Pi Pico and auxillary electronics. The holders for the auxillary electronics will fit the 60x40 mm PCB boards. They can be printed according to the instructions below. For the material you can use PLA but the snapping mechanism on the snap lid may work better with PETG. 
+
+| File Name                            | Purpose                     | Printing Considerations | Number Required | Customization Potential                  |
+| ------------------------------------ | --------------------------- | ----------------------- | --------------- | ---------------------------------------- |
+| Pico Holder_MainBody.stl             | Holds the Pico              | Flat side down          | 1               |                                          |
+| Pico Holder_Main_Lid.stl             | Lid for Main Unit           | Flat side down          | 1               |                                          |
+| Aux_Module.stl                       | Holds LED/Fan Board         | Flat side down          | 2               | Could change to hold different sized PCB |
+| Pico Holder_Port_Door_Default.stl    | Blank door for Aux Unit     | Flat side down          | 0               | Can add ports                            |
+| Pico Holder_Port_Door_Open_Ports.stl | Custom door for Aux Unit    | Flat side down          | 2               |                                          |
+| Pico_Aux_Lid_Snap.stl                | Lid for Aux Unit            | Flat side down          | 2               |                                          |
+| Pico Holder_Port_Door_Honeycomb      | Honeycomb door for Aux Unit | Flat side down          | 2               |                                          |
+
+Instructions:
+- Print the pieces for the housing
+- Place the boards in their respective holders with any connecting wires detached
+  
+<img src="https://github.com/user-attachments/assets/65af9733-7747-49fc-8726-cbd7fad284da" width="600"/> <br>
+
+- Thread any connecting wires through the honeycomb in the sides
+- Attach the side pieces and lids
+
+<img src="https://github.com/user-attachments/assets/dd8e2990-4d99-45c2-99e0-43a468e77be5" width="600"/> <br>
 
 <i> Congratulations, you have finished assembling the electronics! </i>
 
