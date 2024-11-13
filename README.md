@@ -15,9 +15,9 @@ Last Updated 2024-10-22 <br>
 
 <b> Automation Friendly: </b> LEDbyXample is designed to work with automation and self-driving labs. Vials can be release inside the reactor by a robotic arm with a gripper. Automation of the stirring rpm and LED intensity is controlled through a custom python script and uses a Raspberry Pi Pico which can be commanded through a USB cable. Wireless support for the Pico is available but not documented in this project. 
 
-<b> Skill Development: </b> The LEDbyXample photoreactor is made largely from scratch. This allows builders to develop their DIY skills (3D printing, electronics prototyping, microcontroller use). It contains clear build instructions with photos, links to videos, and clear part lists with links. The Python code used to communicate with the microcontroller is designed to be clear and easily modified. 
+<b> Skill Development: </b> LEDbyXample is made largely from scratch. This allows builders to develop their DIY skills (3D printing, electronics prototyping, microcontroller use). It contains clear build instructions with photos, links to videos, and clear part lists with links. The Python code used to communicate with the microcontroller is designed to be clear and easily modified. 
 
-<b> Modular / Customizable: </b> The LEDbyXample photoreactor is designed to be modular, with components (LEDs, fans, bases) that can be easily removed or swapped. The 3D printed parts that comprise the physical reactor can be modified to accomodate for different vial sizes. 
+<b> Modular / Customizable: </b> LEDbyXample is designed to be modular, with components (LEDs, fans, bases) that can be easily removed or swapped. The 3D printed parts that comprise the physical reactor can be modified to accomodate for different vial sizes. 
 
 <b><h2>Summary of Steps:</b></h2>
   1. Order the required items
