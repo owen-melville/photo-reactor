@@ -1,7 +1,7 @@
 <img src="https://github.com/user-attachments/assets/329264f6-ba9a-4603-b425-6119a54de8dd" width="200"/>
 
 <b><h1>Overview:</b></h1>
-This repository contains the STL files and instructions for the assembly of the LEDbyXample photoreactor. This photoreactor is designed for 8 mL (2 dram) vials and uses ~1 Watt LEDs, but is easily altered for use with larger vials. Most components are modular and easy to swap.
+This repository contains the instructions/code/files for the assembly and operation of the LEDbyXample photoreactor. LEDbyXample is designed for automation and self-driving labs (SDLs), like those at the Acceleration Consortium in Toronto. Although it is designed for 8 mL (2 dram) vials that can be placed inside by a robotic arm with gripper, the 3d-printed design files are easily altered for use with larger vials. Most components, including for the LEDs (~1W to be suitable for photochemistry) are modular and easy to swap.
 
 <b><h2>Authors:</b></h2>
 
@@ -372,14 +372,14 @@ To operate the photoreactor, we will need to use a Python script that connects t
 	
 <b><h2> Step 4b: Operation </h2></b>
 
-The LEDbyXample photoreactor currently has two functions: Switch on/off the LEDs (could have up to 4 in one reactor) and initialize/set the rpm of the fans (both for stirring and cooling). Future implementation: Dimming of the LEDs using pulse width modulation. 
+The LEDbyXample photoreactor currently has two functions: Switch on/off the LEDs (could have up to 4 in one reactor) and initialize/set the rpm of the fans (both for stirring and cooling). 
 
 <b>Functions:</b>
   1. <b> add_fan ( fan ) </b> takes in the SoftI2C address with two pins that are associated with controlling the fan, these numbers will change depending on which slot you put your fans in on the pico board
   2. <b> add_led ( pin ) </b> takes in the GPIO pin number for a specific LED to set it up for operation
   3. <b> turn_on_led ( index ) </b> turns on the LED with the specified index
   4. <b> turn_off_led ( index ) </b> turns off the LED with the specified index
-  5. <b> set_led_brightness (index, duty_cycle) </b> Set the brightness of an LED to between 0 and 100 (duty_cycle) 
+  5. <b> set_led_brightness (index, duty_cycle) </b> Set the brightness of an LED to between 0 and 100 (duty_cycle) using pulse width modulation.
   6. <b> initialize_fan ( index, starting_duty_cycle) </b> attempts to turn on fan with specific index, it will try different duty cycles until it is able to measure an rpm (sometimes the initial duty cycle is insufficient when there is a load like a stir bar in a thick liquid. Note that the fan may not initialize if the stir bar is too close or too far away from the magnets. This matters more if you are using a different vial than the 2 dram (8 mL) vial this reactor was designed for. This function returns the duty cycle that was sufficient to activate the fan. 
   7. <b> set_fan_rpm (index, target_rpm, duty_cycle) </b> This attempts to get the specified fan to reach a specific rpm, starting with the specified duty cycle. It may not maintain that rpm, but will keep the same duty cycle, which is returned by the function.
   8. <b> hold_fan_rpm (index, target_rpm, target_time, duty cycle) </b> This attempts to adjust the input duty cycle to maintain a target rpm for a specific time period. This means adjusting the duty cycle up and down slightly as needed. 
