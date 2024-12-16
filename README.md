@@ -7,6 +7,7 @@ This repository contains the instructions/code/files for the assembly and operat
 
 Owen Alfred Melville, Staff Scientist <br>
 Monique Ngan, Automation Technician <br>
+Jeffrey Watchorn, Staff Scientist <br>
 [Acceleration Consortium](https://acceleration.utoronto.ca/) <br>
 Last Updated 2024-10-22 <br>
 
