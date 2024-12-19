@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/329264f6-ba9a-4603-b425-6119a54de8dd" width="200"/>
+<img src="https://github.com/user-attachments/assets/d6dd3c8b-2093-4be2-a503-67724863133e" width="300"/><img src="https://github.com/user-attachments/assets/e87ffe16-c7d2-400a-b528-eea0bf507679" width="300"/><img src="https://github.com/user-attachments/assets/329264f6-ba9a-4603-b425-6119a54de8dd" width="300"/>
 
 <b><h1>Overview:</b></h1>
 This repository contains the instructions/code/files for the assembly and operation of the LEDbyXample photoreactor. LEDbyXample is designed for automation and self-driving labs (SDLs), like those at the Acceleration Consortium in Toronto. Although it is designed for 8 mL (2 dram) vials that can be placed inside by a robotic arm with gripper, the 3d-printed design files are easily altered for use with larger vials. Most components, including for the LEDs (~1W to be suitable for photochemistry) are modular and easy to swap.
