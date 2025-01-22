@@ -40,4 +40,6 @@ The following describes how to turn the photoreactor into an imaging reactor.
 
 I used white [LED stars](https://www.digikey.com/en/products/detail/new-energy/LST1-01H06-3080-01/10663115) in the photo-reactor, and slid in a 0.3 mm white sheet between the reactor and the module to diffuse the light. This does create some glare. This could be improved. If you want to save time, its totally possible to use another lighting source. 
 
+![reactor_image](https://github.com/user-attachments/assets/3e3feba1-4f20-455a-8751-3d2f089892cb)
+
 <h2> Operation & Code: </h2>
