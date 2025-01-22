@@ -34,12 +34,22 @@ The following describes how to turn the photoreactor into an imaging reactor.
 
 ![1000009151-removebg-preview (1)](https://github.com/user-attachments/assets/386e88c9-ab17-4aef-96f9-409d8a998c05)
 
-4. Slot the tunnel onto the photoreactor. Place the camera spacer below the tunnel if you want to provide counter support. 
+4. Slot the tunnel onto the photoreactor. Place the camera spacer below the tunnel if you want to provide counter support.
+
+![_Camera_cropped](https://github.com/user-attachments/assets/b398f27c-26b4-4100-98fb-fac003baddd9)
 
 <h2>Lighting: </h2>
 
-I used white [LED stars](https://www.digikey.com/en/products/detail/new-energy/LST1-01H06-3080-01/10663115) in the photo-reactor, and slid in a 0.3 mm white sheet between the reactor and the module to diffuse the light. This does create some glare. This could be improved. If you want to save time, its totally possible to use another lighting source. 
+I used white [LED stars](https://www.digikey.com/en/products/detail/new-energy/LST1-01H06-3080-01/10663115) in the photo-reactor, and slid in a 0.3 mm white sheet between the reactor and the module to diffuse the light. This does create some glare. This could be improved. Other light sources (not LED stars) could be used. 
 
 ![reactor_image](https://github.com/user-attachments/assets/3e3feba1-4f20-455a-8751-3d2f089892cb)
 
 <h2> Operation & Code: </h2>
+
+All these programs were written by ChatGPT and I edited them. <b>camera_index</b> depends on the number of cameras you have on your computer. You can check your device manager but if you have a built-in cam its usually "1" otherwise its "0". You should "pip install opencv-python" or equivalent prior to running these in your python environment (virtual is fine). I had trouble installing this in older Python environments, so make sure its a newer version. 
+
+ - <b>record_video.py</b> you can monitor the reactor and hit buttons to record (this could be more automated to be timed for before and after the material is dripped in). 
+
+ - <b>take_image.py</b> you can take snapshots and save them
+
+ - <b>monitor_video.py</b> you can simply watch the video feed with this, nothing is recorded
