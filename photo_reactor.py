@@ -68,7 +68,7 @@ class PhotoReactor:
 
     #Set the RPM of the specified fan
     #Inputs Target rpm, wait_time (pause between adjustments in seconds), duty cycle (initial duty cycle), rpm tolerance (how close should we be to our target RPM?)
-    def set_fan_rpm(self,fan_index,target_rpm,wait_time=0.2,duty_cycle=30,rpm_tolerance=10, max_wait=30):
+    def set_fan_rpm(self,fan_index,target_rpm,duty_cycle=30,wait_time=0.2,rpm_tolerance=10, max_wait=30):
         print("Target rpm", target_rpm)
         active_fan = self.FANS[fan_index]
         within_target = False
@@ -102,7 +102,7 @@ class PhotoReactor:
         return duty_cycle
 
     #Hold the fan at a specific RPM for a given target_time, adjusting the duty cycle as needed
-    def hold_fan_rpm(self,fan_index,target_rpm,target_time,wait_time=0.2,duty_cycle=30,rpm_tolerance=10):
+    def hold_fan_rpm(self,fan_index,target_rpm,target_time,duty_cycle=30,wait_time=0.2,rpm_tolerance=10):
         print(f"Holding target rpm {target_rpm} for {target_time} seconds")
         active_fan = self.FANS[fan_index]
         for i in range (0, int(target_time/wait_time)):
